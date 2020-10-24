@@ -2,9 +2,8 @@
 Forked from [Google Style Guides](https://github.com/google/styleguide).
 
 To ensure consistency throughout the source code, keep these rules in mind as you are working:
-
-* All features or bug fixes **must be tested** by one or more specs (unit-tests).
-* All public API methods **must be documented**. (Details TBC).
+1. All features or bug fixes **must be tested** by one or more specs (unit-tests).
+2. All public API methods **must be documented**. (Details TBC).
 
  - [C](#cc)
  - [C++](#cpp)
