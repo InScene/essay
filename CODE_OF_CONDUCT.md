@@ -1,5 +1,6 @@
 # Contributor Code of Conduct
 ## Version 0.3b
+Forked from [Angular](https://github.com/angular/angular/blob/22b96b96902e1a42ee8c5e807720424abad3082a/CODE_OF_CONDUCT.md).
 
 As contributors and maintainers of the project, we pledge to respect everyone who contributes by posting issues, updating documentation, submitting pull requests, providing feedback in comments, and any other activities.
 
