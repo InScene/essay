@@ -1,4 +1,5 @@
 # Style Guides
+Forked from [Google Style Guides](https://github.com/google/styleguide).
 
 To ensure consistency throughout the source code, keep these rules in mind as you are working:
 
