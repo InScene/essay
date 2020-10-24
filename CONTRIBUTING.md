@@ -9,12 +9,12 @@ today! As a contributor, here are the guidelines we would like you to follow:
  - [Issues and Bugs](#issue)
  - [Feature Requests](#feature)
  - [Submission Guidelines](#submit)
- - [Coding Rules](#rules)
+ - [Styleguide](#style)
  - [Commit Message Guidelines](#commit)
  - [Signing the CLA](#cla)
 
 ## <a name="coc"></a> Code of Conduct
-Help us keep projects open and inclusive. Please read and follow our [Code of Conduct][coc].
+Help us keep projects open and inclusive. Please read and follow our [code of conduct](https://github.com/Sentenz/general/blob/main/CODE_OF_CONDUCT.md).
 
 ## <a name="question"></a> Got a Question or Problem?
 
@@ -142,8 +142,8 @@ from the main (upstream) repository:
     git pull --ff upstream master
     ```
 
-## <a name="rules"></a> Coding Rules
-To ensure consistency throughout the source code, keep these [CODING_RULE.md](https://github.com/Sentenz/general/blob/main/CODING_RULE.md) in mind as you are working.
+## <a name="style"></a> Styleguide
+To ensure consistency throughout the source code, keep these [coding rules](https://github.com/Sentenz/general/blob/main/CODING_RULE.md) in mind as you are working.
 
 ## <a name="commit"></a> Commit Message Guidelines
 
