@@ -13,6 +13,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 
 ## <a name="cpp"></a> C++
 * We follow [Google's C++ Style Guide](https://google.github.io/styleguide/cppguide.html).
+* Use cpplint.py to detect style errors, see code of [cpplint.py](https://raw.githubusercontent.com/google/styleguide/gh-pages/cpplint/cpplint.py).
   
 ## <a name="js"></a> JavaScript
 * We follow [Google's JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html), but wrap all code at
