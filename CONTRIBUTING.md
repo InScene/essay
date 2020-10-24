@@ -14,7 +14,7 @@ today! As a contributor, here are the guidelines we would like you to follow:
  - [Signing the CLA](#cla)
 
 ## <a name="coc"></a> Code of Conduct
-Help us keep projects open and inclusive. Please read and follow our [code of conduct](https://github.com/Sentenz/general/blob/main/CODE_OF_CONDUCT.md).
+Help us keep projects open and inclusive. Please read and follow our [code of conduct](CODE_OF_CONDUCT.md).
 
 ## <a name="question"></a> Got a Question or Problem?
 
@@ -143,7 +143,7 @@ from the main (upstream) repository:
     ```
 
 ## <a name="style"></a> Styleguide
-To ensure consistency throughout the source code, keep these [coding rules](https://github.com/Sentenz/general/blob/main/CODING_RULE.md) in mind as you are working.
+To ensure consistency throughout the source code, keep these [coding rules](STYLEGUIDE.md) in mind as you are working.
 
 ## <a name="commit"></a> Commit Message Guidelines
 
