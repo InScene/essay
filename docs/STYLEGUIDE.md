@@ -18,6 +18,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 ## <a name="cpp"></a> C++
 * We follow [Google's C++ Style Guide](https://google.github.io/styleguide/cppguide.html).
 * Use [cpplint.py](https://pypi.org/project/cpplint/) to detect style errors, see [code](https://raw.githubusercontent.com/google/styleguide/gh-pages/cpplint/cpplint.py).
+* Use [CppStyle](https://github.com/wangzw/CppStyle). An Eclipse plugin that integrates the clang-format tool as an alternative C/C++ code formatter and checks C++ coding style with the cpplint.py tool.
 ```
 cpplint.py is a tool that reads a source file and identifies many style errors.
 It is not perfect, and has both false positives and false negatives, but it is still a valuable tool.
