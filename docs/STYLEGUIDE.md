@@ -16,7 +16,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 * Follow the the guide style for [C++](#cpp) with following additional configuration:
 
 To configure Cpplint  checker for C go to **Code Analysis** in **Perference -> C/C++ -> Code Analysis -> Cpplint Issues** globally, or in **Project property -> C/C++ General -> Code Analysis -> Cpplint Issues** for a C/C++ project.
-Double click **Build -> deprecated** page **Scope** and add **\*.c** in in **Inclusion patterns** property.
+Double click **Build -> deprecated** page **Scope** and add **\*.c** in **Inclusion patterns** property.
 
 ## <a name="cpp"></a> C++
 * We follow [Google's C++ Style Guide](https://google.github.io/styleguide/cppguide.html).
