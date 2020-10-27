@@ -11,6 +11,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
  - [C#](#cs)
  - [Python](#py)
  - [Shell](#sh)
+ - [Kotlin](#kt)
  
 ## <a name="cc"></a> C
 * Follow the the guide style for [C++](#cpp) with following additional configuration:
@@ -55,3 +56,6 @@ pip install cpplint
 
 ## <a name="sh"></a> Shell
 * We follow [Google's Shell Style Guide](https://google.github.io/styleguide/shellguide.html).
+
+## <a name="kt"></a> Kotlin
+* We follow [Android's Kotlin Style Guide](https://developer.android.com/kotlin/style-guide).
