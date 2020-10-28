@@ -1,13 +1,22 @@
 # Git Guide
 
- - [Branches](#branch)
+ - [Branching](#branch)
  - [Commit Message Guidelines](#commit)
  - [Issues and Bugs](#issue)
  - [Feature Requests](#feature)
  - [Submission Guidelines](#submit)
 
-## <a name="branch"></a> Branches
-TODO
+## <a name="branch"></a> Branching
+Forked from [Couchcamote](https://dev.to/couchcamote/git-branching-name-convention-cch).
+
+|   Instance  | Branch |   Description |
+|:-----------:|:------:|:-------------:|
+| Master      | master | The production branch, if the repository is published, this is the default branch being presented. |
+| Development | dev/   | All new features and bug fixes should be brought to the development branch. Resolving developer codes conflicts should be done as early as here. |
+| Feature     | feat/  | Any code changes for a new module or use case should be done on a feature branch. This branch is created based on the current development branch. When all changes are Done, a Pull Request/Merge Request is needed to put all of these to the development branch. |
+| Bug Fix     | bugfix/ | If the code changes made from the feature branch were rejected after a release, sprint or demo, any necessary fixes after that should be done on the bugfix branch. |
+| Hot Fix     | hotfix/ | If there is a need to fix a blocker, do a temporary patch, apply a critical framework or configuration change that should be handled immediately, it should be created as a Hotfix. It does not follow the scheduled integration of code and could be merged directly to the production branch, then on the development branch later. |
+| Release     | release/ |  branch for tagging a specific release version. Git also supports tagging a specific commit history of the repository. A release branch is used if there is a need to make the code available for checkout or use. |
 
 ## <a name="commit"></a> Commit Message Guidelines
 We have very precise rules over how our git commit messages can be formatted.  This leads to **more
