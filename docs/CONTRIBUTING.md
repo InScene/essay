@@ -9,7 +9,7 @@ today! As a contributor, here are the guidelines we would like you to follow:
  - [Issues and Bugs](#issue)
  - [Feature Requests](#feature)
  - [Submission Guidelines](#submit)
- - [Styleguide](#style)
+ - [Style Guide](#style)
  - [Commit Message Guidelines](#commit)
  - [Signing the CLA](#cla)
 
@@ -142,8 +142,8 @@ from the main (upstream) repository:
     git pull --ff upstream master
     ```
 
-## <a name="style"></a> Styleguide
-To ensure consistency throughout the source code, keep these [coding rules](STYLEGUIDE.md) in mind as you are working.
+## <a name="style"></a> Style Guide
+To ensure consistency throughout the source code, keep these [coding rules](STYLE_GUIDE.md) in mind as you are working.
 
 ## <a name="commit"></a> Commit Message Guidelines
 
