@@ -59,3 +59,5 @@ pip install cpplint
 
 ## <a name="kt"></a> Kotlin
 * We follow [Android's Kotlin Style Guide](https://developer.android.com/kotlin/style-guide).
+* Use [Kotlin Lint Inspections](https://developer.android.com/studio/write/lint#manuallyRunInspections) to detect style errors.
+
