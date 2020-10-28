@@ -2,8 +2,8 @@
 Forked from [this is better](https://github.com/d-baer/scrum-guide).
 > This HTML version of the Scrum Guide is a direct port of the November 2017 version available [as a PDF here](http://www.scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-US.pdf).
 
-* [Scrum Guide](https://github.com/AYIDouble/Scrum-Developer-Certification-Preparation).
-* [Another one](https://github.com/scrum-guide/scrum-guide) also looks similar to the previous one
+* A [Scrum Guide](https://github.com/AYIDouble/Scrum-Developer-Certification-Preparation) for the preparation of the developer certification.
+* Another [Scrum Guide](https://github.com/scrum-guide/scrum-guide) which looks similar to the forked one.
 
 # The Scrum Guide
 
