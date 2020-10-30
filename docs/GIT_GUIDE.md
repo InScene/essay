@@ -18,7 +18,7 @@ Forked from [Couchcamote](https://dev.to/couchcamote/git-branching-name-conventi
 | Hot Fix     | hotfix/ | If there is a need to fix a blocker, do a temporary patch, apply a critical framework or configuration change that should be handled immediately, it should be created as a Hotfix. It does not follow the scheduled integration of code and could be merged directly to the production branch, then on the development branch later. |
 | Release     | release/ |  branch for tagging a specific release version. Git also supports tagging a specific commit history of the repository. A release branch is used if there is a need to make the code available for checkout or use. |
 
-[Link](https://backlog.com/git-tutorial/branching-workflows/) to the image reference..
+[Link](https://backlog.com/git-tutorial/branching-workflows/) to the image reference.
 ![Branching](/pics/branching_workflows.png)
 
 ## <a name="commit"></a> Commit Message Guidelines
