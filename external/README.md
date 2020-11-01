@@ -1,5 +1,5 @@
 # External Libraries
-Inspired by [Awesome List](https://github.com/sindresorhus/awesome)
+Inspired by [Awesome Manifest](https://github.com/sindresorhus/awesome). If you miss something or are looking for great things, please read the awesome manifesto.
 
  - [Android](#android)
  - [.Net](#net)
