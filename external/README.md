@@ -11,7 +11,7 @@ A curated list of awesome Android UI/UX libraries.
 ### Lists
  1. [Awesome Android UI](https://github.com/wasabeef/awesome-android-ui/blob/master/README.md)
  2. [Awesome Android UI](https://github.com/thanhtoan1196/awesome-android-ui/blob/master/README.md)
- 3. [Android UI](https://androidpedia.net/en/awesome/gh-15653276/android-open-source-projects)
+ 3. [Awesome Android UI](https://androidpedia.net/en/awesome/gh-15653276/android-open-source-projects)
 ### Libraries
  
 ## <a name="net"></a> .Net
