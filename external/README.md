@@ -1,17 +1,21 @@
 # External Libraries
+Inspired by [Awesome List](https://github.com/sindresorhus/awesome)
+
  - [Android](#android)
  - [.Net](#net)
  - [Qt](#qt)
  - [C](#cc)
  - [C++](#cpp)
  - [CMake](#cmake)
+ - [Python](#py)
 
 ## <a name="android"></a> Android
 A curated list of awesome Android UI/UX libraries.
 ### Lists
  1. [Awesome Android UI](https://github.com/wasabeef/awesome-android-ui/blob/master/README.md)
  2. [Awesome Android UI](https://github.com/thanhtoan1196/awesome-android-ui/blob/master/README.md)
- 3. [Awesome Android UI](https://androidpedia.net/en/awesome/gh-15653276/android-open-source-projects)
+ 3. [Awesome Android](https://github.com/JStumpp/awesome-android)
+ 4. [Awesome Android Security](https://github.com/ashishb/android-security-awesome#readme)
 ### Libraries
  1. A Java Library for [Digital Signal Processing](https://github.com/psambit9791/jDSP)
 
@@ -46,3 +50,10 @@ A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny
 A curated list of awesome CMake scripts, modules, examples and others.
 ### Lists
  1. [Awesome CMake](https://github.com/onqtam/awesome-cmake)
+
+ ## <a name="py"></a> Phyton
+A curated list of awesome Python frameworks, libraries, software and resources.
+### Lists
+ 1. [Awesome Python](https://github.com/vinta/awesome-python)
+ 2. [Fucking Awesome Python](https://github.com/trananhkma/fucking-awesome-python)
+ 3. [Awesome Python Applications](https://github.com/mahmoud/awesome-python-applications)
