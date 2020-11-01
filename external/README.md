@@ -32,15 +32,11 @@ A curated list of awesome tools, libraries, and resources for the Qt framework.
 A curated list of C good stuff. This list contains only free software for code, and sellers who aren't evil for physical resources.
 ### Lists
  1. [Awesome C](https://github.com/aleksandar-todorovic/awesome-c)
-### Libraries
- 1. []()
 
  ## <a name="cpp"></a> C++
 A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
 ### Lists
  1. [Awesome C++](https://github.com/fffaraz/awesome-cpp)
-### Libraries
- 1. []()
 
  ## <a name="cmake"></a> CMake
 A curated list of awesome CMake scripts, modules, examples and others.
