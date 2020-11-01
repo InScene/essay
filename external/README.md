@@ -9,6 +9,7 @@ Inspired by [Awesome Manifest](https://github.com/sindresorhus/awesome). If you 
  - [CMake](#cmake)
  - [Python](#py)
  - [IoT](#iot)
+ - [Theory](#theory)
 
 ## <a name="android"></a> Android
 A curated list of awesome Android UI/UX libraries.
@@ -39,6 +40,7 @@ A curated list of awesome tools, libraries, and resources for the Qt framework.
 A curated list of C good stuff. This list contains only free software for code, and sellers who aren't evil for physical resources.
 ### Lists
  1. [Awesome C](https://github.com/aleksandar-todorovic/awesome-c)
+ 2. [Awesome C](https://notabug.org/koz.ross/awesome-c)
 
 ## <a name="cpp"></a> C++
 A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
@@ -63,3 +65,12 @@ A curated list of awesome Python frameworks, libraries, software and resources.
 A curated list of IoT related stuff.
 ### Lists
  1. [Awesome MQTT](https://github.com/hobbyquaker/awesome-mqtt)
+
+## <a name="theory"></a> Theory
+A curated list of awesome places to learn and/or practice algorithms.
+### Lists
+ 1. [Awesome Algorithms](https://github.com/tayllan/awesome-algorithms)
+ 2. [Awesome Algorithms Education](https://github.com/gaerae/awesome-algorithms-education)
+### Algorithms
+ 1. [Kalman and Bayesian Filters in Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
+
