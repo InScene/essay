@@ -12,9 +12,9 @@ Inspired by [Awesome List](https://github.com/sindresorhus/awesome)
 ## <a name="android"></a> Android
 A curated list of awesome Android UI/UX libraries.
 ### Lists
- 1. [Awesome Android UI](https://github.com/wasabeef/awesome-android-ui/blob/master/README.md)
- 2. [Awesome Android UI](https://github.com/thanhtoan1196/awesome-android-ui/blob/master/README.md)
- 3. [Awesome Android](https://github.com/JStumpp/awesome-android)
+ 1. [Awesome Android](https://github.com/JStumpp/awesome-android)
+ 2. [Awesome Android UI](https://github.com/wasabeef/awesome-android-ui/blob/master/README.md)
+ 3. [Awesome Android UI](https://github.com/thanhtoan1196/awesome-android-ui/blob/master/README.md)
  4. [Awesome Android Security](https://github.com/ashishb/android-security-awesome#readme)
 ### Libraries
  1. A Java Library for [Digital Signal Processing](https://github.com/psambit9791/jDSP)
