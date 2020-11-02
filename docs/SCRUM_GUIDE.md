@@ -1,5 +1,5 @@
 # Srcum Guide
-Forked from [this is better](https://github.com/d-baer/scrum-guide).
+Inspired by this [Srum Guide](https://github.com/d-baer/scrum-guide/blob/master/scrum-guide.md).
 > This HTML version of the Scrum Guide is a direct port of the November 2017 version available [as a PDF here](http://www.scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-US.pdf).
 
 * A [Scrum Guide](https://github.com/AYIDouble/Scrum-Developer-Certification-Preparation) for the preparation of the developer certification.
