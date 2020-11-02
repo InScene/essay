@@ -6,8 +6,9 @@ Inspired by [Awesome Manifest](https://github.com/sindresorhus/awesome). If you 
  - [Qt](#qt)
  - [C](#cc)
  - [C++](#cpp)
- - [CMake](#cmake)
  - [Python](#py)
+ - [CMake](#cmake)
+ - [Docker](#docker)
  - [IoT](#iot)
  - [Theory](#theory)
 
@@ -49,17 +50,22 @@ A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny
 ### Libraries
  1. [Butterworth Filter Design](https://github.com/ruohoruotsi/Butterworth-Filter-Design)
 
-## <a name="cmake"></a> CMake
-A curated list of awesome CMake scripts, modules, examples and others.
-### Lists
- 1. [Awesome CMake](https://github.com/onqtam/awesome-cmake)
-
 ## <a name="py"></a> Phyton
 A curated list of awesome Python frameworks, libraries, software and resources.
 ### Lists
  1. [Awesome Python](https://github.com/vinta/awesome-python)
  2. [Fucking Awesome Python](https://github.com/trananhkma/fucking-awesome-python)
  3. [Awesome Python Applications](https://github.com/mahmoud/awesome-python-applications)
+
+## <a name="cmake"></a> CMake
+A curated list of awesome CMake scripts, modules, examples and others.
+### Lists
+ 1. [Awesome CMake](https://github.com/onqtam/awesome-cmake)
+ 
+## <a name="docker"></a> Docker
+A curated list of Docker resources and projects.
+### Lists
+ 1. [Awesome Docker](https://github.com/veggiemonk/awesome-docker#readme)
 
 ## <a name="iot"></a> IoT
 A curated list of IoT related stuff.
