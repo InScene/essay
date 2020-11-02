@@ -7,7 +7,7 @@
  - [Submission Guidelines](#submit)
 
 ## <a name="branch"></a> Branching
-Forked from [Couchcamote](https://dev.to/couchcamote/git-branching-name-convention-cch).
+Inspired by [Couchcamote](https://dev.to/couchcamote/git-branching-name-convention-cch).
 
 |   Instance  | Branch |   Description |
 |:-----------:|:------:|:-------------:|
