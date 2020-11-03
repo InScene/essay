@@ -5,6 +5,11 @@
  - [Issues and Bugs](#issue)
  - [Feature Requests](#feature)
  - [Submission Guidelines](#submit)
+   * [Submitting Issue](#submit-issue)
+   * [Submitting Pull Request](#submit-pr)
+ - [CI/CD](#cicd)
+   * [Continuous Integration](#ci)
+   * [Continuous Deployment](#cd)
 
 ## <a name="branch"></a> Branching
 Inspired by [Couchcamote](https://dev.to/couchcamote/git-branching-name-convention-cch).
@@ -230,3 +235,13 @@ from the main (upstream) repository:
     ```shell
     git pull --ff upstream master
     ```
+    
+## <a name="cicd"></a> CI/CD
+ > TODO
+ This articel discribes [How to Automate Project Versioning and Releases with Continuous Deployment](https://css-tricks.com/how-to-automate-project-versioning-and-releases-with-continuous-deployment/).
+ 
+### <a name="ci"></a> Continuous Integration (CI)
+ - Inspired by [Commitizen for contributors](https://github.com/commitizen/cz-cli)
+
+### <a name="cd"></a> Continuous Deployment (CD)
+ - Inspired by [Semantic release](https://github.com/semantic-release/semantic-release)
