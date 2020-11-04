@@ -28,10 +28,10 @@ To save your and our time, we will systematically close all issues that are requ
 If you would like to chat about the question in real-time, you can reach out via [our gitter channel][gitter].
 
 ## <a name="style"></a> Style Guide
-To ensure consistency throughout the source code, keep these [coding rules](STYLE_GUIDE.md) in mind as you are working.
+To ensure consistency throughout the source code, keep these [coding rules](guide/STYLE_GUIDE.md) in mind as you are working.
 
 ## <a name="git"></a> Git Guide
-To ensure consistency in version, keep these [git rules](GIT_GUIDE.md) in mind.
+To ensure consistency in version, keep these [git rules](guide/GIT_GUIDE.md) in mind.
 
 ## <a name="cla"></a> Signing the CLA
 
