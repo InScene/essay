@@ -24,7 +24,7 @@ Inspired by [Couchcamote](https://dev.to/couchcamote/git-branching-name-conventi
 | Merging     | merge/ | A temporary branch for resolving merge conflicts, usually between the latest development and a feature or Hotfix branch. This can also be used if two branches of a feature being worked on by multiple developers need to be merged, verified and finalized. |
 
 [Link](https://backlog.com/git-tutorial/branching-workflows/) to the image reference.
-![Branching](/pics/branching_workflows.png)
+![Branching](pics/branching_workflows.png)
 
 ## <a name="commit"></a> Commit Message Guidelines
 We have very precise rules over how our git commit messages can be formatted.  This leads to **more
