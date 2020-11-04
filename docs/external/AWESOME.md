@@ -1,4 +1,4 @@
-# External Libraries
+# Awesome
 Inspired by [Awesome Manifest](https://github.com/sindresorhus/awesome). If you miss something or are looking for great things, please read the awesome manifesto.
 
  - [Android](#android)
