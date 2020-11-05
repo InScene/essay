@@ -13,7 +13,7 @@
 | [Turck](https://www.turck.at/de/anwendungsbeispiele-801_kompakte-ip67rfidmodule-mit-opcuaserver-8864.php) | [TBEN-L5-4RFID-8DXP-OPC-UA](https://www.turck.at/de/product/00000040000381bb0003003a) | Compact RFID module for OPC-UA. RFID and I/O module according to OPC UA AutoID Companion Specification. |
 | PxC | [Stand-Alone IO-Link-Master](https://www.phoenixcontact.com/online/portal/ch?1dmy&urile=wcm%3apath%3a/chde/web/main/products/subcategory_pages/Stand_alone_IO-Link_master_P-21-11-05/9e55fb14-3855-4f6e-abdd-b6531b0262f4) | Communicate with your IO-Link devices via PROFINET, EtherNet/IP™, Modbus/TCP or OPC UA. |
 | WAGO | X |  |
-| Festo | X | PLC and Gatway only. |
+| Festo | X | PLC and Gateway only. |
 | Schmalz | X |  |
 | Siemens | X | PLC only. |
 | Beckhoff | X | PLC only. |
