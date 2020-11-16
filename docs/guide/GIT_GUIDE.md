@@ -3,7 +3,7 @@
  - [Branching](#branch)
  - [Issues and Bugs](#issue)
  - [Feature Requests](#feature)
-  - [Submission Guidelines](#submit)
+ - [Submission Guidelines](#submit)
    * [Submitting Issue](#submit-issue)
    * [Submitting Pull Request](#submit-pr)
  - [Commit Message Format](#commit)
