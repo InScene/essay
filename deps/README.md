@@ -1,5 +1,7 @@
 # Third-Party libraries
 
+ - [License checklist](https://www.osadl.org/Access-to-raw-data.oss-compliance-raw-data-access.0.html)
+ 
 Specific optional features are dependent on third-party libraries. 
 Any third-party library which may be used is inside this `/deps` folder.
 
