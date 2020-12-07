@@ -224,11 +224,9 @@ Any line of the commit message cannot be longer than 100 characters.
   │       │             │
   │       │             └─⫸ Summary in present tense. Not capitalized. No period at the end.
   │       │
-  │       └─⫸ Commit Scope: animations|bazel|benchpress|common|compiler|compiler-cli|core|
-  │                          elements|forms|http|language-service|localize|platform-browser|
-  │                          platform-browser-dynamic|platform-server|router|service-worker|
-  │                          upgrade|zone.js|packaging|changelog|dev-infra|docs-infra|migrations|
-  │                          ngcc|ve
+  │       └─⫸ Commit Scope: app|config|generated|interface|utility|tools|guide|external|
+  │                          education|elements|forms|platform|upgrade|packaging|changelog|
+  │                          migrations
   │
   └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|test
 ```
