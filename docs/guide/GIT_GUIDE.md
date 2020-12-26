@@ -191,7 +191,11 @@ After your pull request is merged, you can safely delete your branch and pull th
 
 ## <a name="commit"></a> Commit Message Format
 
-This convention is identical to the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification or the one used by Angular.
+This specification is inspired by 
+and supersedes the  .
+ * the [Angular](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format) github project
+ * the [AngularJS](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#heading=h.uyo6cb12dt6w) commit message format
+ * this conventions are identical to the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
 
 We have very precise rules over how our Git commit messages must be formatted.
 This format leads to **easier to read commit history**.
