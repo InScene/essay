@@ -10,6 +10,7 @@
  - [CI/CD](#cicd)
    * [Continuous Integration](#ci)
    * [Continuous Deployment](#cd)
+     - [Semantic Release](#sr)
 
 ## <a name="branch"></a> Branching
 Inspired by [Couchcamote](https://dev.to/couchcamote/git-branching-name-convention-cch).
@@ -358,11 +359,13 @@ The following documents can help you sort out issues with GitHub accounts and mu
     
 ## <a name="cicd"></a> CI/CD
  > TODO
- * This articel discribes [How to Automate Project Versioning and Releases with Continuous Deployment](https://css-tricks.com/how-to-automate-project-versioning-and-releases-with-continuous-deployment/).
- * Antoher articel [Continuous Deployment with Semantic Release and GitHub Actions](https://www.wizeline.com/blog-continuous-deployment-with-semantic-release-and-github-actions/).
  
 ### <a name="ci"></a> Continuous Integration (CI)
  - Inspired by [Commitizen for contributors](https://github.com/commitizen/cz-cli)
 
 ### <a name="cd"></a> Continuous Deployment (CD)
  - Inspired by [Semantic release](https://github.com/semantic-release/semantic-release)
+#### <a name="sr"></a> Semantic Release
+Links to implement semantic release into github workflow
+ * [How to Automate Project Versioning and Releases with Continuous Deployment](https://css-tricks.com/how-to-automate-project-versioning-and-releases-with-continuous-deployment/).
+ * [Continuous Deployment with Semantic Release and GitHub Actions](https://www.wizeline.com/blog-continuous-deployment-with-semantic-release-and-github-actions/).
