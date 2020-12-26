@@ -193,11 +193,12 @@ After your pull request is merged, you can safely delete your branch and pull th
 
 *This specification is inspired by and supersedes the [AngularJS commit message format][commit-message-format].*
 
+This convention is identical to the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification or the one used by Angular.
+
 We have very precise rules over how our Git commit messages must be formatted.
 This format leads to **easier to read commit history**.
 
 Each commit message consists of a **header**, a **body**, and a **footer**.
-
 
 ```
 <header>
@@ -356,7 +357,8 @@ The following documents can help you sort out issues with GitHub accounts and mu
     
 ## <a name="cicd"></a> CI/CD
  > TODO
- This articel discribes [How to Automate Project Versioning and Releases with Continuous Deployment](https://css-tricks.com/how-to-automate-project-versioning-and-releases-with-continuous-deployment/).
+ * This articel discribes [How to Automate Project Versioning and Releases with Continuous Deployment](https://css-tricks.com/how-to-automate-project-versioning-and-releases-with-continuous-deployment/).
+ * Antoher articel [Continuous Deployment with Semantic Release and GitHub Actions](https://www.wizeline.com/blog-continuous-deployment-with-semantic-release-and-github-actions/).
  
 ### <a name="ci"></a> Continuous Integration (CI)
  - Inspired by [Commitizen for contributors](https://github.com/commitizen/cz-cli)
