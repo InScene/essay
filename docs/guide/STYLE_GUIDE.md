@@ -12,6 +12,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
  - [Python](#py)
  - [Shell](#sh)
  - [Kotlin](#kt)
+ - [Git](#git)
  
 ## <a name="cc"></a> C
 * Follow the the guide style for [C++](#cpp) with following additional configuration:
@@ -62,3 +63,5 @@ pip install cpplint
 * Use [Kotlin Lint Inspections](https://developer.android.com/studio/write/lint#manuallyRunInspections) to detect style errors.
 * Learn Kotlin with [Getting Started](https://kotlinlang.org/docs/reference/).
 
+## <a name="git"></a> Git
+* We follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
