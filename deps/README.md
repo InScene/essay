@@ -12,6 +12,7 @@ Here's a e.g. list of third party libraries:
 
 | Library         | License          | Description                                   |
 |-----------------|------------------|-----------------------------------------------|
+| tiny-regex-c    | Unlicense        | regex library                                 |
 | jsmn            | MIT              | json parser                                   |
 | mdnsd           | BSD-3-Clause     | mDNS library                                  |
 | ua-nodeset      | MIT              | Official OPC UA Nodeset files by the OPCF     |
