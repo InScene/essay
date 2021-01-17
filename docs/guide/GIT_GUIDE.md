@@ -25,7 +25,7 @@ Inspired by [Couchcamote](https://dev.to/couchcamote/git-branching-name-conventi
 | Merging     | merge/ | A temporary branch for resolving merge conflicts, usually between the latest development and a feature or Hotfix branch. This can also be used if two branches of a feature being worked on by multiple developers need to be merged, verified and finalized. |
 
 [Link](https://backlog.com/git-tutorial/branching-workflows/) to the image reference.
-![Branching](pics/branching_workflows.png)
+![Branching](https://github.com/Sentenz/general/blob/main/image/branching_workflows.png)
 
 
 ## <a name="issue"></a> Found a Bug?
