@@ -7,7 +7,7 @@
 Inspired by [Awesome Clean Code](https://github.com/kkisiele/awesome-clean-code).
 
 ### Design Principles
-#### [SOLID](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
+#### SOLID
 Acronym coined by Robert C. Martin (Uncle Bob) to descibe the following five principles:
 1. [The Single Responsibility Principle](https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk) A class should have only one reason to change.
 2. [The Open Closed Principle](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en) Software entities should be open for extension, but closed for modification.
@@ -18,14 +18,16 @@ Acronym coined by Robert C. Martin (Uncle Bob) to descibe the following five pri
 A local copy of ["Design Principles and Design Patterns"](https://github.com/kkisiele/awesome-clean-code/raw/master/principles_and_patterns.pdf) by Robert C. Marin from _objectmentor.com_ website.
 More about this principles with examples can be found [here](https://lostechies.com/wp-content/uploads/2011/03/pablos_solid_ebook.pdf)
 
-#### [Kent Beck's Four Rules of Simple Design](https://martinfowler.com/bliki/BeckDesignRules.html)
+#### Four Rules of Simple Design
+Inspired by [Kent Beck's Four Rules of Simple Design](https://martinfowler.com/bliki/BeckDesignRules.html)
 A design which:
 1. Passes all tests.
 2. Reveals intention.
 3. No duplication.
 4. Fewest elements.
 
-#### [Elegant Objects](http://www.elegantobjects.org)
+#### Elegant Objects
+Inspired by [Elegant Objects](http://www.elegantobjects.org)
 1. No null.
 2. No code in constructors.
 3. No getters and setters.
