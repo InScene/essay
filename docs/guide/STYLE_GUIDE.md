@@ -18,9 +18,6 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 ### Conventional
 * Follow the the guide style for [C++](#cpp) with following additional configuration:
 
-To configure Cpplint  checker for C go to **Code Analysis** in **Perference -> C/C++ -> Code Analysis -> Cpplint Issues** globally, or in **Project property -> C/C++ General -> Code Analysis -> Cpplint Issues** for a C/C++ project.
-Double click **Build -> deprecated** page **Scope** and add **\*.c** in **Inclusion patterns** property.
-
 ## <a name="cpp"></a> C++
 ### Conventional
 * We follow [Google's C++ Style Guide](https://google.github.io/styleguide/cppguide.html).
@@ -28,7 +25,6 @@ Double click **Build -> deprecated** page **Scope** and add **\*.c** in **Inclus
 ### Lint
 * Use [cpplint.py](https://pypi.org/project/cpplint/) to detect style errors, see [code](https://raw.githubusercontent.com/google/styleguide/gh-pages/cpplint/cpplint.py).
 with the cpplint.py tool.
-
 ```
 cpplint.py is a tool that reads a source file and identifies many style errors.
 It is not perfect, and has both false positives and false negatives, but it is still a valuable tool.
@@ -42,6 +38,9 @@ False positives can be ignored by putting // NOLINT at the end of the line or //
 Some projects have instructions on how to run cpplint.py from their project tools.
 If the project you are contributing to does not, you can download cpplint.py separately.
 * Under the Eclipse IDE use [CppStyle](https://github.com/wangzw/CppStyle). An Eclipse plugin that integrates the clang-format tool as an alternative C/C++ code formatter and checks C++ coding style 
+
+> To configure Cpplint  checker for C go to **Code Analysis** in **Perference -> C/C++ -> Code Analysis -> Cpplint Issues** globally, or in **Project property -> C/C++ General -> Code Analysis -> Cpplint Issues** for a C/C++ project.
+Double click **Build -> deprecated** page **Scope** and add **\*.c** in **Inclusion patterns** property.
 
 ###### Lint under Windows
 Open Command Prompt as Administrator and run:
