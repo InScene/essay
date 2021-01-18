@@ -7,21 +7,23 @@ Any third-party library which may be used is inside this `/deps` folder.
 
 Anyways you should make sure that the corresponding third-party license matches your needs.
 
+## Table of content
  - [opcua-z](#opcua-z)
- - [Open62541](#open62541)
+ - [open62541](#open62541)
  - [Android](#android)
 
 
-## <a name="opcua-z"></a> opcua-z
+### <a name="opcua-z"></a> opcua-z
 
 | Component       | Licensor           | License          |  Description                                  |  Website                                      |
 |-----------------|--------------------|------------------|-----------------------------------------------|-----------------------------------------------|
-| pcre-8.44       | PERL               | BSD 3-Clause     | regex library.                                | https://ftp.pcre.org/pub/pcre                 |
-| pcre2-10.36     | PERL               | BSD 3-Clause     | regex library.                                | https://ftp.pcre.org/pub/pcre                 |
-| mxml-3.1        | Michael R Sweet    | Apache-2.0       | Tiny XML library.                             | https://github.com/michaelrsweet/mxml         |
-| mbedtls         | Arm Mbed           | Apache-2.0       | An SSL library.                               | https://github.com/ARMmbed/mbedtls            |
+| pcre-8.44       | PERL               | BSD 3-Clause     | regex library                                 | https://ftp.pcre.org/pub/pcre                 |
+| pcre2-10.36     | PERL               | BSD 3-Clause     | regex library                                 | https://ftp.pcre.org/pub/pcre                 |
+| mxml-3.1        | Michael R Sweet    | Apache-2.0       | Tiny XML librar                               | https://github.com/michaelrsweet/mxml         |
+| mbedtls         | Arm Mbed           | Apache-2.0       | An SSL library                                | https://github.com/ARMmbed/mbedtls            |
+| open62541       | open62541 project  | MPL v2.0         | An OPC UA library                             | https://github.com/ARMmbed/mbedtls            |
 
-## <a name="open62541"></a> Open62541
+### <a name="open62541"></a> open62541
 Up to now all these libraries have a less strict License compared to MPL 2.0.
 
 | Component       | Licensor           | License          |  Description                                  |  Website                                      |
@@ -34,11 +36,11 @@ Up to now all these libraries have a less strict License compared to MPL 2.0.
 | itoa            |                    | MIT              | int to char conversion                        |                                               |
 | ms_stdint       |                    | BSD 3-Clause     | Replacement for stdint on older Visual Studio |                                               |
 | open62541_queue |                    | BSD 3-Clause     | FIFO and LIFO queue implementation            |                                               |
-| pcg_basic       |                    | Apache-2.0      | Random Number Generation                       |                                               |
+| pcg_basic       |                    | Apache-2.0       | Random Number Generation                      |                                               |
 | string_escape   |                    | MIT              | utf8 encoding and decoding                    |                                               |
 | ziptree         |                    | MPL 2.0          | Reusable zip tree implementation              |                                               |
 
-## <a name="android"></a> Android
+### <a name="android"></a> Android
 
 | Component       | Licensor           | License          |  Description                                  |  Website                                      |
 |-----------------|--------------------|------------------|-----------------------------------------------|-----------------------------------------------|
