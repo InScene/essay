@@ -1,9 +1,6 @@
 # Srcum Guide
 Inspired by this [Srum Guide](https://github.com/d-baer/scrum-guide/blob/master/scrum-guide.md).
 
-* A [Scrum Guide](https://github.com/AYIDouble/Scrum-Developer-Certification-Preparation) for the preparation of the developer certification.
-* Another [Scrum Guide](https://github.com/scrum-guide/scrum-guide) which looks similar to the forked one.
-
 # The 2020 Scrum Guide™
 
 This HTML version of the Scrum Guide is a direct port of the November 2020 version available [as a PDF here](https://www.scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf).
