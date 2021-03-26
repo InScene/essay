@@ -10,6 +10,7 @@ Inspired by [Awesome Manifest](https://github.com/sindresorhus/awesome). If you 
  - [CMake](#cmake)
  - [Docker](#docker)
  - [IoT](#iot)
+ - [Analysis](#analysis)
  - [Theory](#theory)
 
 ## <a name="android"></a> Android
@@ -73,15 +74,21 @@ A curated list of IoT related stuff.
 ### Lists
  1. [Awesome MQTT](https://github.com/hobbyquaker/awesome-mqtt)
 
-## <a name="theory"></a> Theory
+## <a name="analysis"></a> Analysis
 A curated list of awesome places to learn and/or practice algorithms.
 ### Lists
- 1. [Awesome Algorithms](https://github.com/tayllan/awesome-algorithms)
- 2. [Awesome Algorithms Education](https://github.com/gaerae/awesome-algorithms-education)
- 3. [Awesome Artificial Intelligence (AI)](https://github.com/owainlewis/awesome-artificial-intelligence#readme)
- 4. [Search Engine Optimization (SEO)](https://github.com/marcobiedermann/search-engine-optimization#readme)
- 5. [Awesome Cryptography](https://github.com/sobolevn/awesome-cryptography#readme)
+ 1. [Awesome Quant](https://github.com/wilsonfreitas/awesome-quant)
+ 2. [Awesome Algorithms](https://github.com/tayllan/awesome-algorithms)
+ 3. [Awesome Algorithms Education](https://github.com/gaerae/awesome-algorithms-education)
+ 4. [Awesome Artificial Intelligence (AI)](https://github.com/owainlewis/awesome-artificial-intelligence#readme)
+ 5. [Search Engine Optimization (SEO)](https://github.com/marcobiedermann/search-engine-optimization#readme)
+ 6. [Awesome Cryptography](https://github.com/sobolevn/awesome-cryptography#readme)
     * [Awesome Crypto Papers](https://github.com/pFarb/awesome-crypto-papers#readme)
 ### Algorithms
  1. [Kalman and Bayesian Filters in Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
+### Technical Analysis
+ 1. [Go Library](https://github.com/sdcoffey/techan)
+ 1. [Java Library](https://github.com/ta4j/ta4j)
+
+## <a name="theory"></a> Theory
 
