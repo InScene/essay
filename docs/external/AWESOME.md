@@ -84,7 +84,7 @@ A curated list of awesome places to learn and/or practice algorithms.
  5. [Search Engine Optimization (SEO)](https://github.com/marcobiedermann/search-engine-optimization#readme)
  6. [Awesome Cryptography](https://github.com/sobolevn/awesome-cryptography#readme)
     * [Awesome Crypto Papers](https://github.com/pFarb/awesome-crypto-papers#readme)
-### Algorithms
+### Filter Algorithms
  1. [Kalman and Bayesian Filters in Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
 ### Technical Analysis
  1. [Go Library](https://github.com/sdcoffey/techan)
