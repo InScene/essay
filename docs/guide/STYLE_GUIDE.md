@@ -28,7 +28,6 @@ with the cpplint.py tool.
 
 > cpplint.py is a tool that reads a source file and identifies many style errors. It is not perfect, and has both false positives and false negatives, but it is still a valuable tool. False positives can be ignored by putting // NOLINT at the end of the line or // NOLINTNEXTLINE in the previous line.
 
-
 ### Format
 * Use [clang-format](https://clang.llvm.org/docs/ClangFormat.html) tool.
 
@@ -76,6 +75,13 @@ pip install cpplint
 
 ### Guide
 * Learn Kotlin with [Getting Started](https://kotlinlang.org/docs/reference/).
+
+## <a name="kt"></a> Kotlin
+### Conventional
+* We follow [Golang's Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments).
+
+### Lint & Format
+* See [Awesome Go Linters](https://github.com/golangci/awesome-go-linters) to find linter and formater.
 
 ## <a name="git"></a> Git
 ### Conventional
