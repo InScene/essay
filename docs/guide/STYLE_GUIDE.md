@@ -12,6 +12,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
  - [Python](#py)
  - [Shell](#sh)
  - [Kotlin](#kt)
+ - [Golang](#go)
  - [Git](#git)
  
 ## <a name="cc"></a> C
@@ -76,7 +77,7 @@ pip install cpplint
 ### Guide
 * Learn Kotlin with [Getting Started](https://kotlinlang.org/docs/reference/).
 
-## <a name="kt"></a> Kotlin
+## <a name="go"></a> Golang
 ### Conventional
 * We follow [Golang's Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments).
 
