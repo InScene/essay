@@ -84,11 +84,12 @@ A curated list of awesome places to learn and/or practice algorithms.
 ### Filter Algorithms
  1. [Kalman and Bayesian Filters in Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
 ### Technical Analysis
+ 1. [Topics of technical analysis in Github](https://github.com/topics/technical-analysis)
  1. [Go Library](https://github.com/sdcoffey/techan)
- 1. [Java Library](https://github.com/ta4j/ta4j)
+ 2. [Java Library](https://github.com/ta4j/ta4j)
 
 ## <a name="theory"></a> Theory
-A curated list of awesome places to learn and/or practice algorithms.
+A curated list of awesome places to learn theory.
 ### Lists
  1. [Search Engine Optimization (SEO)](https://github.com/marcobiedermann/search-engine-optimization#readme)
  2. [Awesome Cryptography](https://github.com/sobolevn/awesome-cryptography#readme)
