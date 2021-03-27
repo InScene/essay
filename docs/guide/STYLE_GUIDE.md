@@ -91,6 +91,10 @@ pip install cpplint
 ### Commentary
 * See [godoc](https://golang.org/doc/effective_go#commentary).
 
+### Layout
+* See [Project Layout](https://github.com/golang-standards/project-layout).
+
+
 ## <a name="git"></a> Git
 ### Conventional
 * We follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
