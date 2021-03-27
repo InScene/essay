@@ -90,7 +90,7 @@ pip install cpplint
 * Use [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports) tool.
 
 ### Commentary
-* See [godoc](https://golang.org/doc/effective_go#commentary) to find linter and formater.
+* See [godoc](https://golang.org/doc/effective_go#commentary).
 
 ## <a name="git"></a> Git
 ### Conventional
