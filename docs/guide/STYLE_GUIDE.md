@@ -93,7 +93,7 @@ pip install cpplint
 
 ### Layout
 * See [Project Layout](https://github.com/golang-standards/project-layout).
-
+* See [Project Layout Generator](https://github.com/insidieux/inizio/tree/v1.1.1)
 
 ## <a name="git"></a> Git
 ### Conventional
