@@ -24,8 +24,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 * We follow [Google's C++ Style Guide](https://google.github.io/styleguide/cppguide.html).
 
 ### Lint
-* Use [cpplint.py](https://pypi.org/project/cpplint/) to detect style errors, see [code](https://raw.githubusercontent.com/google/styleguide/gh-pages/cpplint/cpplint.py).
-with the cpplint.py tool.
+* Use [cpplint.py](https://pypi.org/project/cpplint/) to detect style errors, see [code](https://raw.githubusercontent.com/google/styleguide/gh-pages/cpplint/cpplint.py) with the cpplint.py tool.
 
 > cpplint.py is a tool that reads a source file and identifies many style errors. It is not perfect, and has both false positives and false negatives, but it is still a valuable tool. False positives can be ignored by putting // NOLINT at the end of the line or // NOLINTNEXTLINE in the previous line.
 
