@@ -79,10 +79,18 @@ pip install cpplint
 
 ## <a name="go"></a> Golang
 ### Conventional
+* We follow [Effective Go](https://golang.org/doc/effective_go).
 * We follow [Golang's Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments).
 
-### Lint & Format
+### Lint
 * See [Awesome Go Linters](https://github.com/golangci/awesome-go-linters) to find linter and formater.
+
+### Format
+* Use [gofmt](https://golang.org/cmd/gofmt/) tool.
+* Use [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports) tool.
+
+### Commentary
+* See [godoc](https://golang.org/doc/effective_go#commentary) to find linter and formater.
 
 ## <a name="git"></a> Git
 ### Conventional
