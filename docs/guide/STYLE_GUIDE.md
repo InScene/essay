@@ -96,12 +96,12 @@ pip install cpplint
 * See [Project Layout Generator](https://github.com/insidieux/inizio/tree/v1.1.1).
 
 ### Visualisation
-'Charts/Plots'
+#### 'Charts/Plots'
 * See [go-echarts](https://github.com/go-echarts/go-echarts).
 * See [go-chart](https://github.com/wcharczuk/go-chart).
 * See [Statsview](https://github.com/go-echarts/statsview).
 * See [Gonum Plot](https://github.com/gonum/plot).
-'GUI'
+#### 'GUI'
 * See [Go GUI Projects](https://github.com/go-graphics/go-gui-projects).
 
 ## <a name="git"></a> Git
