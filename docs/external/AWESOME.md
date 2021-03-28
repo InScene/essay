@@ -6,6 +6,7 @@ Inspired by [Awesome Manifest](https://github.com/sindresorhus/awesome). If you 
  - [Qt](#qt)
  - [C](#cc)
  - [C++](#cpp)
+ - [Go](#go)
  - [Python](#py)
  - [CMake](#cmake)
  - [Docker](#docker)
@@ -24,7 +25,6 @@ A curated list of awesome Android UI/UX libraries.
 ### Libraries
  1. A Java Library for [Digital Signal Processing](https://github.com/psambit9791/jDSP)
 
- 
 ## <a name="net"></a> .Net
 A collection of awesome .NET libraries, tools, frameworks, and software.
 ### Lists
@@ -51,6 +51,11 @@ A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny
  1. [Awesome C++](https://github.com/fffaraz/awesome-cpp)
 ### Libraries
  1. [Butterworth Filter Design](https://github.com/ruohoruotsi/Butterworth-Filter-Design)
+
+## <a name="go"></a> Go
+A curated list of Go good stuff. This list contains only free software for code, and sellers who aren't evil for physical resources.
+### Lists
+ 1. [Awesome Go](https://github.com/avelino/awesome-go#images)
 
 ## <a name="py"></a> Phyton
 A curated list of awesome Python frameworks, libraries, software and resources.
