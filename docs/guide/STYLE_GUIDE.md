@@ -104,6 +104,9 @@ pip install cpplint
 #### `GUI`
 * See [Go GUI Projects](https://github.com/go-graphics/go-gui-projects).
 
+### Editor
+* See [Visual Studio Code](https://code.visualstudio.com/download).
+
 ## <a name="git"></a> Git
 ### Conventional
 * We follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
