@@ -55,7 +55,7 @@ A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny
 ## <a name="go"></a> Go
 A curated list of Go good stuff. This list contains only free software for code, and sellers who aren't evil for physical resources.
 ### Lists
- 1. [Awesome Go](https://github.com/avelino/awesome-go#images)
+ 1. [Awesome Go](https://github.com/avelino/awesome-go)
 
 ## <a name="py"></a> Phyton
 A curated list of awesome Python frameworks, libraries, software and resources.
