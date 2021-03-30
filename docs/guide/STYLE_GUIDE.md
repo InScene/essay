@@ -18,10 +18,16 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 ## <a name="cc"></a> C
 ### Conventional
 * Follow the the guide style for [C++](#cpp) with following additional configuration:
+* 
+### Layout
+* Follow the the guide style for [C++](#cpp) with following additional configuration:
 
 ## <a name="cpp"></a> C++
 ### Conventional
 * We follow [Google's C++ Style Guide](https://google.github.io/styleguide/cppguide.html).
+
+### Layout
+* See [Project Layout](https://api.csswg.org/bikeshed/?force=1&url=https://raw.githubusercontent.com/vector-of-bool/pitchfork/develop/data/spec.bs).
 
 ### Lint
 * Use [cpplint.py](https://pypi.org/project/cpplint/) to detect style errors, see [code](https://raw.githubusercontent.com/google/styleguide/gh-pages/cpplint/cpplint.py) with the cpplint.py tool.
