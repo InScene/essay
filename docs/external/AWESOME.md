@@ -9,6 +9,7 @@ Inspired by [Awesome Manifest](https://github.com/sindresorhus/awesome). If you 
  - [Go](#go)
  - [Python](#py)
  - [CMake](#cmake)
+ - [Git](#git)
  - [Docker](#docker)
  - [IoT](#iot)
  - [Analysis](#analysis)
@@ -68,7 +69,12 @@ A curated list of awesome Python frameworks, libraries, software and resources.
 A curated list of awesome CMake scripts, modules, examples and others.
 ### Lists
  1. [Awesome CMake](https://github.com/onqtam/awesome-cmake)
- 
+
+## <a name="git"></a> Git
+A curated list of Git resources and projects.
+### Lists
+ 1. [Awesome Actions](https://github.com/sdras/awesome-actions)
+
 ## <a name="docker"></a> Docker
 A curated list of Docker resources and projects.
 ### Lists
