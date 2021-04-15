@@ -15,12 +15,16 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
  - [Golang](#go)
  - [Git](#git)
  
+ 
 ## <a name="cc"></a> C
+See [C++](#cpp).
+
 ### Conventional
 * Follow the the guide style for [C++](#cpp) with following additional configuration:
 * 
 ### Layout
 * Follow the the guide style for [C++](#cpp) with following additional configuration:
+
 
 ## <a name="cpp"></a> C++
 ### Conventional
@@ -36,6 +40,19 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 
 ### Format
 * Use [clang-format](https://clang.llvm.org/docs/ClangFormat.html) tool.
+
+### Compiler
+See [Compiler User Guide](https://www.keil.com/support/man/docs/armclang_intro/default.htm) for the complete option list.
+
+1. [Using Common Compiler Options](https://www.keil.com/support/man/docs/armclang_intro/armclang_intro_mtw1469708501316.htm)
+   * [Selecting source language options](https://www.keil.com/support/man/docs/armclang_intro/armclang_intro_sir1472741527970.htm)
+   * [Selecting optimization options](https://www.keil.com/support/man/docs/armclang_intro/armclang_intro_fnb1472741490155.htm)
+2. [Writing Optimized Code](https://www.keil.com/support/man/docs/armclang_intro/armclang_intro_oph1469708556921.htm)
+   * [Effect of the volatile keyword](https://www.keil.com/support/man/docs/armclang_intro/armclang_intro_chr1385110934192.htm)
+   * [Optimizing loops](https://www.keil.com/support/man/docs/armclang_intro/armclang_intro_hpz1474359444075.htm)
+   * [Inlining functions](https://www.keil.com/support/man/docs/armclang_intro/armclang_intro_kff1474359729131.htm)
+   * [Stack use in C and C++](https://www.keil.com/support/man/docs/armclang_intro/armclang_intro_hla1474359990839.htm)
+
 
 ### Installation
 Some projects have instructions on how to run cpplint.py from their project tools.
@@ -56,21 +73,26 @@ To install [cpplint](https://github.com/cpplint/cpplint) from PyPI, run:
 pip install cpplint
 ````
 
+
 ## <a name="java"></a> Java
 ### Conventional
 * We follow [Google's Java Style Guide](https://google.github.io/styleguide/javaguide.html).
+
 
 ## <a name="cs"></a> C#
 ### Conventional
 * We follow [Google's C# Style Guide](https://google.github.io/styleguide/csharp-style.html).
 
+
 ## <a name="py"></a> Python
 ### Conventional
 * We follow [Google's Python Guide](https://google.github.io/styleguide/pyguide.html).
 
+
 ## <a name="sh"></a> Shell
 ### Conventional
 * We follow [Google's Shell Style Guide](https://google.github.io/styleguide/shellguide.html).
+
 
 ## <a name="kt"></a> Kotlin
 ### Conventional
@@ -81,6 +103,7 @@ pip install cpplint
 
 ### Guide
 * Learn Kotlin with [Getting Started](https://kotlinlang.org/docs/reference/).
+
 
 ## <a name="go"></a> Golang
 ### Conventional
@@ -112,6 +135,7 @@ pip install cpplint
 
 ### Editor
 * See [Visual Studio Code](https://code.visualstudio.com/download).
+
 
 ## <a name="git"></a> Git
 ### Conventional
