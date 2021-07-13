@@ -127,6 +127,7 @@ pip install cpplint
 ### Layout
 * See [Project Layout](https://github.com/golang-standards/project-layout).
 * See [Project Layout Generator](https://github.com/insidieux/inizio/tree/v1.1.1).
+* See [Go Clean Template](https://github.com/evrone/go-clean-template).
 
 ### Visualisation
 #### `Charts/Plots`
