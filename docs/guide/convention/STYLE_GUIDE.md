@@ -12,7 +12,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
  - [Python](#py)
  - [Shell](#sh)
  - [Kotlin](#kt)
- - [Golang](#go)
+ - [Go](#go)
  - [Git](#git)
  
  
