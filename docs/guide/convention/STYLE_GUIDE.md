@@ -113,6 +113,7 @@ pip install cpplint
 ### Conventional
 * We follow [Effective Go](https://golang.org/doc/effective_go).
 * We follow [Golang's Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments).
+* We follow [Uber Go Style Guide](https://github.com/uber-go/guide/blob/master/style.md).
 
 ### Lint
 * See [Awesome Go Linters](https://github.com/golangci/awesome-go-linters) to find linter and formater.
