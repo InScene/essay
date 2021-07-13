@@ -109,7 +109,7 @@ pip install cpplint
 * Learn Kotlin with [Getting Started](https://kotlinlang.org/docs/reference/).
 
 
-## <a name="go"></a> Golang
+## <a name="go"></a> Go
 ### Conventional
 * We follow [Effective Go](https://golang.org/doc/effective_go).
 * We follow [Golang's Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments).
