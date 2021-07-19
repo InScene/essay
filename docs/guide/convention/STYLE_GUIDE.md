@@ -30,6 +30,9 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 ### Unit-Testing Frameworks
 * See [TODO](https://www.jetbrains.com/lp/devecosystem-2021/cpp/#Which-unit-testing-frameworks-do-you-regularly-use).
 
+### Compiler
+* Follow [C++](#cpp) conventions.
+
 
 ## <a name="cpp"></a> C++
 ### Conventional
