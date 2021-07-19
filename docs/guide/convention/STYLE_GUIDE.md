@@ -116,7 +116,7 @@ pip install cpplint
 
 ### Analysis Tools
 #### `Linter`
-* Use [Kotlin Lint Inspections](https://developer.android.com/studio/write/lint#manuallyRunInspections) to detect style errors.
+* See [Kotlin Lint Inspections](https://developer.android.com/studio/write/lint#manuallyRunInspections) tool.
 
 ### Guide
 * Learn Kotlin with [Getting Started](https://kotlinlang.org/docs/reference/).
@@ -132,8 +132,8 @@ pip install cpplint
 #### `Linter`
 * See [Awesome Go Linters](https://github.com/golangci/awesome-go-linters) to find linter and formater.
 #### `Format`
-* Use [gofmt](https://golang.org/cmd/gofmt/) tool.
-* Use [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports) tool.
+* See [gofmt](https://golang.org/cmd/gofmt/) tool.
+* See [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports) tool.
 
 ### Commentary
 * See [godoc](https://golang.org/doc/effective_go#commentary).
@@ -166,7 +166,7 @@ pip install cpplint
 #### `Format`
 * Use [TODO]() tool.
 #### `Static Analyzer`
-* Use [Miri](https://github.com/rust-lang/miri) tool.
+* See [Miri](https://github.com/rust-lang/miri) tool.
 
 
 ## <a name="git"></a> Git
