@@ -44,11 +44,10 @@ See [C++](#cpp).
 #### `Static Analysis`
 * See [clang-analyzer](https://clang-analyzer.llvm.org/) tool.
 #### `Dynamic Analysis`
-* See [Valgrind](https://clang.llvm.org/docs/ClangFormat.html) tool.
+* See [Valgrind](https://valgrind.org/) tool.
 
 ### Compiler
 See [Compiler User Guide](https://www.keil.com/support/man/docs/armclang_intro/default.htm) for the complete option list.
-
 1. [Using Common Compiler Options](https://www.keil.com/support/man/docs/armclang_intro/armclang_intro_mtw1469708501316.htm)
    * [Selecting source language options](https://www.keil.com/support/man/docs/armclang_intro/armclang_intro_sir1472741527970.htm)
    * [Selecting optimization options](https://www.keil.com/support/man/docs/armclang_intro/armclang_intro_fnb1472741490155.htm) and [Options That Control Optimization](https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html)
@@ -62,12 +61,10 @@ See [Compiler User Guide](https://www.keil.com/support/man/docs/armclang_intro/d
    * [Run-time memory models](https://www.keil.com/support/man/docs/armclang_intro/armclang_intro_ldq1505906267474.htm)
    * [The vector table](https://www.keil.com/support/man/docs/armclang_intro/armclang_intro_kqu1505906156419.htm)
 
-
 ### Installation
 Some projects have instructions on how to run cpplint.py from their project tools.
 If the project you are contributing to does not, you can download cpplint.py separately.
 * Under the Eclipse IDE use [CppStyle](https://github.com/wangzw/CppStyle). An Eclipse plugin that integrates the clang-format tool as an alternative C/C++ code formatter and checks C++ coding style 
-
 > To configure Cpplint  checker for C go to **Code Analysis** in **Perference -> C/C++ -> Code Analysis -> Cpplint Issues** globally, or in **Project property -> C/C++ General -> Code Analysis -> Cpplint Issues** for a C/C++ project.
 Double click **Build -> deprecated** page **Scope** and add **\*.c** in **Inclusion patterns** property.
 
@@ -107,7 +104,8 @@ pip install cpplint
 ### Conventional
 * We follow [Android's Kotlin Style Guide](https://developer.android.com/kotlin/style-guide).
 
-### Lint
+### Analysis Tools
+#### `Linter`
 * Use [Kotlin Lint Inspections](https://developer.android.com/studio/write/lint#manuallyRunInspections) to detect style errors.
 
 ### Guide
@@ -130,7 +128,7 @@ pip install cpplint
 ### Commentary
 * See [godoc](https://golang.org/doc/effective_go#commentary).
 
-### Layout
+### Archtitecture
 * See [Project Layout](https://github.com/golang-standards/project-layout).
 * See [Project Layout Generator](https://github.com/insidieux/inizio/tree/v1.1.1).
 * See [Go Clean Template](https://github.com/evrone/go-clean-template).
