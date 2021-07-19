@@ -21,17 +21,20 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 See [C++](#cpp).
 
 ### Conventional
-* Follow the the guide style for [C++](#cpp) with following additional configuration:
-* 
-### Layout
-* Follow the the guide style for [C++](#cpp) with following additional configuration:
+* Follow [C++](#cpp) conventions.
+
+### Archtitecture
+* Follow [C++](#cpp) conventions.
+
+### Analysis Tools
+* Follow [C++](#cpp) conventions.
 
 
 ## <a name="cpp"></a> C++
 ### Conventional
 * We follow [Google's C++ Style Guide](https://google.github.io/styleguide/cppguide.html).
 
-### Layout
+### Archtitecture
 * See [Project Layout](https://api.csswg.org/bikeshed/?force=1&url=https://raw.githubusercontent.com/vector-of-bool/pitchfork/develop/data/spec.bs).
 
 ### Analysis Tools
@@ -148,8 +151,8 @@ pip install cpplint
 
 ## <a name="rs"></a> Rust
 ### Conventional
-* We follow [TODO]() specification.
-* 
+* We follow [TODO]().
+
 ### Analysis Tools
 #### `Linter`
 * See [TODO]() tool.
@@ -160,4 +163,4 @@ pip install cpplint
 * 
 ## <a name="git"></a> Git
 ### Conventional
-* We follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
+* We follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
