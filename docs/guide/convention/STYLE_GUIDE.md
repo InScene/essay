@@ -1,10 +1,6 @@
 # Style Guides
 Inspired by [Google Style Guides](https://github.com/google/styleguide).
 
-To ensure consistency throughout the source code, keep these rules in mind as you are working:
-1. All features or bug fixes **must be tested** by one or more specs (unit-tests).
-2. All public API methods **must be documented**. (Details TBC).
-
  - [C](#cc)
  - [C++](#cpp)
  - [Java](#java)
