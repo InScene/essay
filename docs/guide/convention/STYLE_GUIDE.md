@@ -13,6 +13,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
  - [Shell](#sh)
  - [Kotlin](#kt)
  - [Go](#go)
+ - [Rust](#rs)
  - [Git](#git)
  
  
@@ -33,13 +34,17 @@ See [C++](#cpp).
 ### Layout
 * See [Project Layout](https://api.csswg.org/bikeshed/?force=1&url=https://raw.githubusercontent.com/vector-of-bool/pitchfork/develop/data/spec.bs).
 
-### Lint
-* Use [cpplint.py](https://pypi.org/project/cpplint/) to detect style errors, see [code](https://raw.githubusercontent.com/google/styleguide/gh-pages/cpplint/cpplint.py) with the cpplint.py tool.
-
+### Analysis Tools
+#### `Linter`
+* See [Cpplint](https://pypi.org/project/cpplint/) tool to detect style errors, see [code](https://raw.githubusercontent.com/google/styleguide/gh-pages/cpplint/cpplint.py) with the cpplint.py tool.
 > cpplint.py is a tool that reads a source file and identifies many style errors. It is not perfect, and has both false positives and false negatives, but it is still a valuable tool. False positives can be ignored by putting // NOLINT at the end of the line or // NOLINTNEXTLINE in the previous line.
-
-### Format
-* Use [clang-format](https://clang.llvm.org/docs/ClangFormat.html) tool.
+* See [clang-tidy](https://clang.llvm.org/extra/clang-tidy/) tool.
+#### `Format`
+* See [clang-format](https://clang.llvm.org/docs/ClangFormat.html) tool.
+#### `Static Analysis`
+* See [clang-analyzer](https://clang-analyzer.llvm.org/) tool.
+#### `Dynamic Analysis`
+* See [Valgrind](https://clang.llvm.org/docs/ClangFormat.html) tool.
 
 ### Compiler
 See [Compiler User Guide](https://www.keil.com/support/man/docs/armclang_intro/default.htm) for the complete option list.
@@ -115,10 +120,10 @@ pip install cpplint
 * We follow [Golang's Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments).
 * We follow [Uber Go Style Guide](https://github.com/uber-go/guide/blob/master/style.md).
 
-### Lint
+### Analysis Tools
+#### `Linter`
 * See [Awesome Go Linters](https://github.com/golangci/awesome-go-linters) to find linter and formater.
-
-### Format
+#### `Format`
 * Use [gofmt](https://golang.org/cmd/gofmt/) tool.
 * Use [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports) tool.
 
@@ -143,6 +148,18 @@ pip install cpplint
 * See [Visual Studio Code](https://code.visualstudio.com/download).
 
 
+## <a name="rs"></a> Rust
+### Conventional
+* We follow [TODO]() specification.
+* 
+### Analysis Tools
+#### `Linter`
+* See [TODO]() tool.
+#### `Format`
+* Use [TODO]() tool.
+#### `Static Analyzer`
+* Use [Miri](https://github.com/rust-lang/miri) tool.
+* 
 ## <a name="git"></a> Git
 ### Conventional
 * We follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
