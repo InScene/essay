@@ -105,6 +105,9 @@ pip install cpplint
 ### Conventional
 * We follow [Google's Shell Style Guide](https://google.github.io/styleguide/shellguide.html).
 
+### Analysis Tools
+#### `Checker`
+* See [shellcheck](https://github.com/koalaman/shellcheck) to find linter and formater.
 
 ## <a name="kt"></a> Kotlin
 ### Conventional
