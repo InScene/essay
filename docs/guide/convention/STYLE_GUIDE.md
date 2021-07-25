@@ -107,7 +107,7 @@ pip install cpplint
 
 ### Analysis Tools
 #### `Checker`
-* See [shellcheck](https://github.com/koalaman/shellcheck) to find linter and formater.
+* See [shellcheck](https://github.com/koalaman/shellcheck) to get warnings and suggestions for bash/sh shell scripts.
 
 ## <a name="kt"></a> Kotlin
 ### Conventional
