@@ -39,14 +39,20 @@ Inspired by [Google Style Guides](https://github.com/google/styleguide).
 
 ### Analysis Tools
 #### `Linter`
-* See [Cpplint](https://pypi.org/project/cpplint/) tool to detect style errors, see [code](https://raw.githubusercontent.com/google/styleguide/gh-pages/cpplint/cpplint.py) with the cpplint.py tool.
-> cpplint.py is a tool that reads a source file and identifies many style errors. It is not perfect, and has both false positives and false negatives, but it is still a valuable tool. False positives can be ignored by putting // NOLINT at the end of the line or // NOLINTNEXTLINE in the previous line.
-* See [clang-tidy](https://clang.llvm.org/extra/clang-tidy/) tool.
+* See [clang-tidy](https://clang.llvm.org/extra/clang-tidy/) tool and [doc](https://clang.llvm.org/extra/clang-tidy/#id2).
+> Configure [.clang-tidy](https://github.com/googleapis/google-cloud-cpp/blob/main/.clang-tidy) in the project.
+* See [Cpplint](https://pypi.org/project/cpplint/) tool to detect style errors, see [code](https://raw.githubusercontent.com/google/styleguide/gh-pages/cpplint/cpplint.py) of the cpplint.py tool.
+> Configure [CPPLINT.cfg](https://github.com/google/conscrypt/blob/master/CPPLINT.cfg) in the root project.<br/>
+> cpplint.py is a tool that reads a source file and identifies many style errors. It is not perfect, and has both false positives and false negatives, but it is still a valuable tool. False positives can be ignored by putting `// NOLINT` at the end of the line or `// NOLINTNEXTLINE` in the previous line.
 #### `Format`
 * See [clang-format](https://clang.llvm.org/docs/ClangFormat.html) tool.
+> Configure [.clang-format](https://github.com/googleapis/google-cloud-cpp/blob/main/.clang-format) in the root project.<br/>
+> Configure [.clang-format-ignore](https://github.com/mozilla/gecko-dev/blob/master/.clang-format-ignore) in the root project.
 #### `Static Analysis`
 * See [scan-build](https://github.com/rizsotto/scan-build) tool for [clang-analyzer](http://clang-analyzer.llvm.org/scan-build.html).
 * See [Cppcheck](https://github.com/danmar/cppcheck) tool.
+> Configure [cppcheck-suppressions.txt](https://github.com/open62541/open62541/blob/master/cppcheck-suppressions.txt) in the project.<br/>
+> See [manual](http://cppcheck.sourceforge.net/manual.pdf).
 #### `Dynamic Analysis`
 * See [Valgrind](https://valgrind.org/) tool.
 
@@ -108,9 +114,10 @@ pip install cpplint
 
 ### Analysis Tools
 #### `Checker`
-* See [shellcheck](https://github.com/koalaman/shellcheck) to get warnings and suggestions for bash/sh shell scripts.
+* See [shellcheck](https://github.com/koalaman/shellcheck) to get warnings and suggestions for bash/sh shell scripts. See [.shellcheckrc](https://github.com/koalaman/shellcheck/issues/725) for configurations.
 #### `Format`
 * See [shfmt](https://github.com/mvdan/sh) tool.
+
 
 ## <a name="kt"></a> Kotlin
 ### Conventional
