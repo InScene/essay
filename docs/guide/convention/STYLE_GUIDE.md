@@ -158,12 +158,12 @@ pip install cpplint
 * See [Go Clean Template](https://github.com/evrone/go-clean-template).
 
 ### Visualisation
-### `Charts/Plots`
+#### `Charts/Plots`
 * See [go-echarts](https://github.com/go-echarts/go-echarts).
 * See [go-chart](https://github.com/wcharczuk/go-chart).
 * See [Statsview](https://github.com/go-echarts/statsview).
 * See [Gonum Plot](https://github.com/gonum/plot).
-### `GUI`
+#### `GUI`
 * See [Go GUI Projects](https://github.com/go-graphics/go-gui-projects).
 
 ### Editor
