@@ -38,6 +38,7 @@ Inspired by [Google Style Guides](https://github.com/google/styleguide).
 * See [Project Layout](https://api.csswg.org/bikeshed/?force=1&url=https://raw.githubusercontent.com/vector-of-bool/pitchfork/develop/data/spec.bs).
 
 ### Analysis Tools
+#### Static Analysis
 #### `Linter`
 * See [clang-tidy](https://clang.llvm.org/extra/clang-tidy/) tool and [doc](https://clang.llvm.org/extra/clang-tidy/#id2).
 > Configure [.clang-tidy](https://github.com/googleapis/google-cloud-cpp/blob/main/.clang-tidy) in the project.
@@ -48,12 +49,12 @@ Inspired by [Google Style Guides](https://github.com/google/styleguide).
 * See [clang-format](https://clang.llvm.org/docs/ClangFormat.html) tool.
 > Configure [.clang-format](https://github.com/googleapis/google-cloud-cpp/blob/main/.clang-format) in the root project.<br/>
 > Configure [.clang-format-ignore](https://github.com/mozilla/gecko-dev/blob/master/.clang-format-ignore) in the root project.
-#### `Static Analysis`
+#### `Checker`
 * See [scan-build](https://github.com/rizsotto/scan-build) tool for [clang-analyzer](http://clang-analyzer.llvm.org/scan-build.html).
 * See [Cppcheck](https://github.com/danmar/cppcheck) tool.
 > Configure [cppcheck-suppressions.txt](https://github.com/open62541/open62541/blob/master/cppcheck-suppressions.txt) in the project.<br/>
 > See [manual](http://cppcheck.sourceforge.net/manual.pdf).
-#### `Dynamic Analysis`
+#### Dynamic Analysis
 * See [Valgrind](https://valgrind.org/) tool.
 
 ### Unit-Testing Frameworks
@@ -81,12 +82,12 @@ If the project you are contributing to does not, you can download cpplint.py sep
 > To configure Cpplint  checker for C go to **Code Analysis** in **Perference -> C/C++ -> Code Analysis -> Cpplint Issues** globally, or in **Project property -> C/C++ General -> Code Analysis -> Cpplint Issues** for a C/C++ project.
 Double click **Build -> deprecated** page **Scope** and add **\*.c** in **Inclusion patterns** property.
 
-###### Lint under Windows
+### `Lint under Windows`
 Open Command Prompt as Administrator and run:
 ```shell
 easy_install cpplint
 ````
-###### Lint under Linux
+### `Lint under Linux`
 To install [cpplint](https://github.com/cpplint/cpplint) from PyPI, run:
 ```shell
 pip install cpplint
@@ -113,10 +114,12 @@ pip install cpplint
 * We follow [Google's Shell Style Guide](https://google.github.io/styleguide/shellguide.html).
 
 ### Analysis Tools
-#### `Checker`
-* See [shellcheck](https://github.com/koalaman/shellcheck) to get warnings and suggestions for bash/sh shell scripts. See [.shellcheckrc](https://github.com/koalaman/shellcheck/issues/725) for configurations.
+#### Static Analysis
 #### `Format`
 * See [shfmt](https://github.com/mvdan/sh) tool.
+#### `Checker`
+* See [shellcheck](https://github.com/koalaman/shellcheck) to get warnings and suggestions for bash/sh shell scripts.
+> Configure [.shellcheckrc](https://github.com/koalaman/shellcheck/issues/725) in the project.
 
 
 ## <a name="kt"></a> Kotlin
@@ -124,6 +127,7 @@ pip install cpplint
 * We follow [Android's Kotlin Style Guide](https://developer.android.com/kotlin/style-guide).
 
 ### Analysis Tools
+#### Static Analysis
 #### `Linter`
 * See [Kotlin Lint Inspections](https://developer.android.com/studio/write/lint#manuallyRunInspections) tool.
 
@@ -138,6 +142,7 @@ pip install cpplint
 * We follow [Uber Go Style Guide](https://github.com/uber-go/guide/blob/master/style.md).
 
 ### Analysis Tools
+#### Static Analysis
 #### `Linter`
 * See [Awesome Go Linters](https://github.com/golangci/awesome-go-linters) to find linter and formater.
 #### `Format`
@@ -153,12 +158,12 @@ pip install cpplint
 * See [Go Clean Template](https://github.com/evrone/go-clean-template).
 
 ### Visualisation
-#### `Charts/Plots`
+### `Charts/Plots`
 * See [go-echarts](https://github.com/go-echarts/go-echarts).
 * See [go-chart](https://github.com/wcharczuk/go-chart).
 * See [Statsview](https://github.com/go-echarts/statsview).
 * See [Gonum Plot](https://github.com/gonum/plot).
-#### `GUI`
+### `GUI`
 * See [Go GUI Projects](https://github.com/go-graphics/go-gui-projects).
 
 ### Editor
@@ -170,11 +175,12 @@ pip install cpplint
 * We follow [TODO]().
 
 ### Analysis Tools
+#### Static Analysis
 #### `Linter`
 * See [TODO]() tool.
 #### `Format`
 * See [TODO]() tool.
-#### `Static Analyzer`
+#### `Checker`
 * See [Miri](https://github.com/rust-lang/miri) tool.
 
 
