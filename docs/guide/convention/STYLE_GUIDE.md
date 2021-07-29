@@ -104,6 +104,8 @@ pip install cpplint
 ## <a name="sh"></a> Shell
 ### Conventional
 * We follow [Google's Shell Style Guide](https://google.github.io/styleguide/shellguide.html).
+#### `Format`
+* Use [shfmt](https://github.com/mvdan/sh) tool.
 
 ### Analysis Tools
 #### `Checker`
