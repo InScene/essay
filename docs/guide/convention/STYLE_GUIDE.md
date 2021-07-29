@@ -45,8 +45,8 @@ Inspired by [Google Style Guides](https://github.com/google/styleguide).
 #### `Format`
 * See [clang-format](https://clang.llvm.org/docs/ClangFormat.html) tool.
 #### `Static Analysis`
-* See [scan-build](https://github.com/rizsotto/scan-build) tool for clang-analyzer.
-* See [`Cppcheck`](https://github.com/danmar/cppcheck) tool.
+* See [scan-build](https://github.com/rizsotto/scan-build) tool for [clang-analyzer](http://clang-analyzer.llvm.org/scan-build.html).
+* See [Cppcheck](https://github.com/danmar/cppcheck) tool.
 #### `Dynamic Analysis`
 * See [Valgrind](https://valgrind.org/) tool.
 
