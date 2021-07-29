@@ -82,12 +82,12 @@ If the project you are contributing to does not, you can download cpplint.py sep
 > To configure Cpplint  checker for C go to **Code Analysis** in **Perference -> C/C++ -> Code Analysis -> Cpplint Issues** globally, or in **Project property -> C/C++ General -> Code Analysis -> Cpplint Issues** for a C/C++ project.
 Double click **Build -> deprecated** page **Scope** and add **\*.c** in **Inclusion patterns** property.
 
-### `Lint under Windows`
+#### `Lint under Windows`
 Open Command Prompt as Administrator and run:
 ```shell
 easy_install cpplint
 ````
-### `Lint under Linux`
+#### `Lint under Linux`
 To install [cpplint](https://github.com/cpplint/cpplint) from PyPI, run:
 ```shell
 pip install cpplint
