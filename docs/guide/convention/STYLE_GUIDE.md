@@ -109,7 +109,7 @@ pip install cpplint
 #### `Checker`
 * See [shellcheck](https://github.com/koalaman/shellcheck) to get warnings and suggestions for bash/sh shell scripts.
 #### `Format`
-* Use [shfmt](https://github.com/mvdan/sh) tool.
+* See [shfmt](https://github.com/mvdan/sh) tool.
 
 ## <a name="kt"></a> Kotlin
 ### Conventional
@@ -165,7 +165,7 @@ pip install cpplint
 #### `Linter`
 * See [TODO]() tool.
 #### `Format`
-* Use [TODO]() tool.
+* See [TODO]() tool.
 #### `Static Analyzer`
 * See [Miri](https://github.com/rust-lang/miri) tool.
 
