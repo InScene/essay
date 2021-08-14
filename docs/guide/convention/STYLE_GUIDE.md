@@ -196,3 +196,6 @@ pip install cpplint
 
 ### CI/CD
 * See [semantic-release](https://github.com/semantic-release/semantic-release) tool.
+* > Configure [.releaserc.json](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration-file) in the project.<br/>
+* > Configure [package.json](https://github.com/semantic-release/semantic-release/blob/master/package.json) in the project.<br/>
+* > Configure [package-lock.json](https://github.com/semantic-release/semantic-release/blob/master/package-lock.json) in the project.
