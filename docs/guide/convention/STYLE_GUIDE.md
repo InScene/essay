@@ -192,3 +192,6 @@ pip install cpplint
 #### Static Analysis
 #### `Linter`
 * See [commitlint](https://github.com/conventional-changelog/commitlint) tool.
+
+### CI/CD
+* See [semantic-release](https://github.com/semantic-release/semantic-release) tool.
