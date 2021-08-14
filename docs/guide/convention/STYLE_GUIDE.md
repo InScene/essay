@@ -192,6 +192,7 @@ pip install cpplint
 #### Static Analysis
 #### `Linter`
 * See [commitlint](https://github.com/conventional-changelog/commitlint) tool.
+> Configure [.commitlintrc.js](https://github.com/conventional-changelog/commitlint#config) in the project.
 
 ### CI/CD
 * See [semantic-release](https://github.com/semantic-release/semantic-release) tool.
