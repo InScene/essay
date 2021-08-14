@@ -225,13 +225,13 @@ Any line of the commit message cannot be longer than 100 characters.
 ```
 <type>(<scope>): <short summary>
   │       │             │
-  │       │             └─⫸ Summary in present tense. Not capitalized. No period at the end.
+  │       │             └─> Summary in present tense. Not capitalized. No period at the end.
   │       │
-  │       └─⫸ Commit Scope: app|config|generated|interface|utility|tools|guide|external|
+  │       └─> Commit Scope: app|config|generated|interface|utility|tools|guide|external|
   │                          education|elements|forms|platform|upgrade|packaging|changelog|
   │                          migrations
   │
-  └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|test
+  └─> Commit Type: build|ci|docs|feat|fix|perf|refactor|test
 ```
 
 The `<type>` and `<summary>` fields are mandatory, the `(<scope>)` field is optional.
@@ -365,7 +365,20 @@ The following documents can help you sort out issues with GitHub accounts and mu
 
 ### <a name="cd"></a> Continuous Deployment (CD)
  - Inspired by [Semantic release](https://github.com/semantic-release/semantic-release)
-#### <a name="sr"></a> Semantic Release
+
+### <a name="sr"></a> Semantic Release
+[semantic-release](https://github.com/semantic-release/semantic-release) is meant to be executed on the CI environment after every successful build on the release branch.
+
+[FAQ](https://github.com/semantic-release/semantic-release/blob/master/docs/support/FAQ.md)
+
+<strong>Triggering a release</strong> for each new commits added to one of the release branches (for example main, develop, feature), with git push or by merging a pull request or merging from another branch, a CI build is triggered and runs the semantic-release command to make a release if there are codebase changes since the last release that affect the package functionalities.
+semantic-release offers various ways to control the timing, the content and the audience of published releases. See example workflows in the following recipes:
+* [Using distribution channels](https://github.com/semantic-release/semantic-release/blob/master/docs/recipes/distribution-channels.md)
+* [Maintenance releases](https://github.com/semantic-release/semantic-release/blob/master/docs/recipes/maintenance-releases.md)
+* [Pre-releases](https://github.com/semantic-release/semantic-release/blob/master/docs/recipes/pre-releases.md)
+
+Lint commit messages with [commitlint](https://github.com/conventional-changelog/commitlint). Alternatively, you can run [Commitlint Github Action](https://github.com/wagoid/commitlint-github-action) in the CI workflow.
+
 Links to implement semantic release into github workflow
  * [How to Automate Project Versioning and Releases with Continuous Deployment](https://css-tricks.com/how-to-automate-project-versioning-and-releases-with-continuous-deployment/).
  * [Continuous Deployment with Semantic Release and GitHub Actions](https://www.wizeline.com/blog-continuous-deployment-with-semantic-release-and-github-actions/).
