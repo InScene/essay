@@ -116,7 +116,7 @@ pip install cpplint
 ### Analysis Tools
 #### Static Analysis
 #### `Format`
-* See [shfmt](https://github.com/mvdan/sh) tool.
+* [shfmt](https://github.com/mvdan/sh)
 #### `Checker`
 * See [shellcheck](https://github.com/koalaman/shellcheck) to get warnings and suggestions for bash/sh shell scripts.
 > Configure [.shellcheckrc](https://github.com/koalaman/shellcheck/issues/725) in the project.
@@ -129,7 +129,7 @@ pip install cpplint
 ### Analysis Tools
 #### Static Analysis
 #### `Linter`
-* See [Kotlin Lint Inspections](https://developer.android.com/studio/write/lint#manuallyRunInspections) tool.
+* [Kotlin Lint Inspections](https://developer.android.com/studio/write/lint#manuallyRunInspections)
 
 ### Guide
 * Learn Kotlin with [Getting Started](https://kotlinlang.org/docs/reference/).
@@ -144,30 +144,30 @@ pip install cpplint
 ### Analysis Tools
 #### Static Analysis
 #### `Linter`
-* See [Awesome Go Linters](https://github.com/golangci/awesome-go-linters) to find linter and formater.
+* [Awesome Go Linters](https://github.com/golangci/awesome-go-linters) to find linter and formater
 #### `Format`
-* See [gofmt](https://golang.org/cmd/gofmt/) tool.
-* See [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports) tool.
+* [gofmt](https://golang.org/cmd/gofmt/)
+* [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports)
 
 ### Commentary
-* See [godoc](https://golang.org/doc/effective_go#commentary).
+* [godoc](https://golang.org/doc/effective_go#commentary)
 
 ### Archtitecture
-* See [Project Layout](https://github.com/golang-standards/project-layout).
-* See [Project Layout Generator](https://github.com/insidieux/inizio/tree/v1.1.1).
-* See [Go Clean Template](https://github.com/evrone/go-clean-template).
+* [Project Layout](https://github.com/golang-standards/project-layout)
+* [Project Layout Generator](https://github.com/insidieux/inizio/tree/v1.1.1)
+* [Go Clean Template](https://github.com/evrone/go-clean-template)
 
 ### Visualisation
 #### `Charts/Plots`
-* See [go-echarts](https://github.com/go-echarts/go-echarts).
-* See [go-chart](https://github.com/wcharczuk/go-chart).
-* See [Statsview](https://github.com/go-echarts/statsview).
-* See [Gonum Plot](https://github.com/gonum/plot).
+* [go-echarts](https://github.com/go-echarts/go-echarts)
+* [go-chart](https://github.com/wcharczuk/go-chart)
+* [Statsview](https://github.com/go-echarts/statsview)
+* [Gonum Plot](https://github.com/gonum/plot)
 #### `GUI`
-* See [Go GUI Projects](https://github.com/go-graphics/go-gui-projects).
+* [Go GUI Projects](https://github.com/go-graphics/go-gui-projects)
 
 ### Editor
-* See [Visual Studio Code](https://code.visualstudio.com/download).
+* [Visual Studio Code](https://code.visualstudio.com/download)
 
 
 ## <a name="rs"></a> Rust
@@ -177,11 +177,11 @@ pip install cpplint
 ### Analysis Tools
 #### Static Analysis
 #### `Linter`
-* See [TODO]() tool.
+* [TODO]()
 #### `Format`
-* See [TODO]() tool.
+* [TODO]()
 #### `Checker`
-* See [Miri](https://github.com/rust-lang/miri) tool.
+* [Miri](https://github.com/rust-lang/miri)
 
 
 ## <a name="git"></a> Git
@@ -191,11 +191,13 @@ pip install cpplint
 ### Analysis Tools
 #### Static Analysis
 #### `Linter`
-* See [commitlint](https://github.com/conventional-changelog/commitlint) tool.
+* [commitlint](https://github.com/conventional-changelog/commitlint)
 > Configure [.commitlintrc.js](https://github.com/conventional-changelog/commitlint#config) in the project.
+* [commitlint-github-action](https://github.com/wagoid/commitlint-github-action)
 
 ### CI/CD
-* See [semantic-release](https://github.com/semantic-release/semantic-release) tool.
-> Configure [.releaserc.json](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration-file) in the project.<br/>
-> Configure [package.json](https://github.com/semantic-release/semantic-release/blob/master/package.json) in the project.<br/>
-> Configure [package-lock.json](https://github.com/semantic-release/semantic-release/blob/master/package-lock.json) in the project.
+* [semantic-release](https://github.com/semantic-release/semantic-release)
+> Configure in the project.
+> * [.releaserc.json](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration-file)
+> * [package.json](https://github.com/semantic-release/semantic-release/blob/master/package.json)
+> * [package-lock.json](https://github.com/semantic-release/semantic-release/blob/master/package-lock.json)
