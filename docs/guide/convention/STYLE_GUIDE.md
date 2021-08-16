@@ -11,6 +11,7 @@ Inspired by [Google Style Guides](https://github.com/google/styleguide).
  - [Go](#go)
  - [Rust](#rs)
  - [Git](#git)
+ - [Markdown](#md)
  
  
 ## <a name="cc"></a> C
@@ -201,3 +202,16 @@ pip install cpplint
 > * [.releaserc.json](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration-file)
 > * [package.json](https://github.com/semantic-release/semantic-release/blob/master/package.json)
 > * [package-lock.json](https://github.com/semantic-release/semantic-release/blob/master/package-lock.json)
+
+
+## <a name="md"></a> Markdown
+### Conventional
+* We follow [Markdown Rules](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md).
+
+### Analysis Tools
+#### Static Analysis
+#### `Linter`
+* [markdownlint](https://github.com/markdownlint/markdownlint)
+* [markdownlint](https://github.com/DavidAnson/markdownlint) and markdownlint-cli for Node.js
+> Configure [.markdownlint.json](https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.jsonc) in the project.
+* Github Action [markdownlint](https://github.com/actionshub/markdownlint)
