@@ -51,7 +51,7 @@ Inspired by [Google Style Guides](https://github.com/google/styleguide).
 > Configure in the root project.
 > * [.clang-format](https://github.com/googleapis/google-cloud-cpp/blob/main/.clang-format)
 > * [.clang-format-ignore](https://github.com/mozilla/gecko-dev/blob/master/.clang-format-ignore)<br/>
-> Use [clang-format-configurator](https://zed0.co.uk/clang-format-configurator/) to a .clang-format file.
+> Use [clang-format-configurator](https://zed0.co.uk/clang-format-configurator/) to create a .clang-format file.
 #### `Checker`
 * See [scan-build](https://github.com/rizsotto/scan-build) tool for [clang-analyzer](http://clang-analyzer.llvm.org/scan-build.html).
 * [Cppcheck](https://github.com/danmar/cppcheck)
