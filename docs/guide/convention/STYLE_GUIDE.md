@@ -199,7 +199,7 @@ pip install cpplint
 * [commitlint-github-action](https://github.com/wagoid/commitlint-github-action)
 
 ### CI/CD
-* See[semantic-release](https://github.com/semantic-release/semantic-release) tool for an full automated release and changlog. A [GIT_GUIDE](https://github.com/sentenz/general/blob/main/docs/guide/convention/GIT_GUIDE.md#-semantic-release) for more informations.
+* [semantic-release](https://github.com/semantic-release/semantic-release) tool for an full automated release and changlog. A [GIT_GUIDE](https://github.com/sentenz/general/blob/main/docs/guide/convention/GIT_GUIDE.md#-semantic-release) for more informations.
 > Configure in the project.
 > * [.releaserc.json](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration-file)
 > * [package.json](https://github.com/semantic-release/semantic-release/blob/master/package.json)
