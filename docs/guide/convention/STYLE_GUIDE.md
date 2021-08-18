@@ -1,6 +1,4 @@
 # Style Guides
-Inspired by [Google Style Guides](https://github.com/google/styleguide).
-
  - [C](#cc)
  - [C++](#cpp)
  - [Java](#java)
@@ -13,6 +11,7 @@ Inspired by [Google Style Guides](https://github.com/google/styleguide).
  - [Git](#git)
  - [Markdown](#md)
  
+ * [Super Linter](https://github.com/github/super-linter)
  
 ## <a name="cc"></a> C
 ### Conventional
