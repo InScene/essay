@@ -1,4 +1,7 @@
 # Style Guides
+ * [Super Linter](https://github.com/github/super-linter)
+ 
+## Table of Contents
  - [C](#cc)
  - [C++](#cpp)
  - [Java](#java)
@@ -11,7 +14,6 @@
  - [Git](#git)
  - [Markdown](#md)
  
- * [Super Linter](https://github.com/github/super-linter)
  
 ## <a name="cc"></a> C
 ### Conventional
