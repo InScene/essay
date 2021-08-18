@@ -121,7 +121,7 @@ pip install cpplint
 #### `Format`
 * [shfmt](https://github.com/mvdan/sh)
 #### `Checker`
-* See [shellcheck](https://github.com/koalaman/shellcheck) to get warnings and suggestions for bash/sh shell scripts.
+* [shellcheck](https://github.com/koalaman/shellcheck) to get warnings and suggestions for bash/sh shell scripts.
 > Configure [.shellcheckrc](https://github.com/koalaman/shellcheck/issues/725) in the project.
 
 
