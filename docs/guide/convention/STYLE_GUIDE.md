@@ -39,8 +39,7 @@
 ### Archtitecture
 * See [Project Layout](https://api.csswg.org/bikeshed/?force=1&url=https://raw.githubusercontent.com/vector-of-bool/pitchfork/develop/data/spec.bs).
 
-### Analysis Tools
-#### Static Analysis
+### Static Analysis
 #### `Linter`
 * [clang-tidy](https://clang.llvm.org/extra/clang-tidy/) tool and [doc](https://clang.llvm.org/extra/clang-tidy/#id2)
 > Configure [.clang-tidy](https://github.com/googleapis/google-cloud-cpp/blob/main/.clang-tidy) in the project.
@@ -58,7 +57,8 @@
 * [Cppcheck](https://github.com/danmar/cppcheck)
 > Configure [cppcheck-suppressions.txt](https://github.com/open62541/open62541/blob/master/cppcheck-suppressions.txt) in the project.<br/>
 > See [manual](http://cppcheck.sourceforge.net/manual.pdf).
-#### Dynamic Analysis
+
+### Dynamic Analysis
 * See [Valgrind](https://valgrind.org/) tool.
 
 ### Unit-Testing Frameworks
@@ -117,8 +117,7 @@ pip install cpplint
 ### Conventional
 * We follow [Google's Shell Style Guide](https://google.github.io/styleguide/shellguide.html).
 
-### Analysis Tools
-#### Static Analysis
+### Static Analysis
 #### `Format`
 * [shfmt](https://github.com/mvdan/sh)
 #### `Checker`
@@ -130,8 +129,7 @@ pip install cpplint
 ### Conventional
 * We follow [Android's Kotlin Style Guide](https://developer.android.com/kotlin/style-guide).
 
-### Analysis Tools
-#### Static Analysis
+### Static Analysis
 #### `Linter`
 * [Kotlin Lint Inspections](https://developer.android.com/studio/write/lint#manuallyRunInspections)
 
@@ -145,8 +143,7 @@ pip install cpplint
 * We follow [Golang's Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments).
 * We follow [Uber Go Style Guide](https://github.com/uber-go/guide/blob/master/style.md).
 
-### Analysis Tools
-#### Static Analysis
+### Static Analysis
 #### `Linter`
 * [Awesome Go Linters](https://github.com/golangci/awesome-go-linters) to find linter and formater
 #### `Format`
@@ -178,8 +175,7 @@ pip install cpplint
 ### Conventional
 * We follow [TODO]().
 
-### Analysis Tools
-#### Static Analysis
+### Static Analysis
 #### `Linter`
 * [TODO]()
 #### `Format`
@@ -192,8 +188,7 @@ pip install cpplint
 ### Conventional
 * We follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
-### Analysis Tools
-#### Static Analysis
+### Static Analysis
 #### `Linter`
 * [commitlint](https://github.com/conventional-changelog/commitlint)
 > Configure [.commitlintrc.js](https://github.com/conventional-changelog/commitlint#config) in the project.
@@ -211,10 +206,18 @@ pip install cpplint
 ### Conventional
 * We follow [Markdown Rules](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md).
 
-### Analysis Tools
-#### Static Analysis
+### Static Analysis
 #### `Linter`
 * [markdownlint](https://github.com/markdownlint/markdownlint)
-* [markdownlint](https://github.com/DavidAnson/markdownlint) and markdownlint-cli for Node.js
+* [markdownlint](https://github.com/DavidAnson/markdownlint) a Node.js style checker and lint tool for Markdown/CommonMark files.
 > Configure [.markdownlint.json](https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.jsonc) in the project.
-* Github Action [markdownlint](https://github.com/actionshub/markdownlint)
+* [markdownlint](https://github.com/actionshub/markdownlint) a Github Action tool.
+#### `Checker`
+* [markdown-link-check](https://github.com/tcort/markdown-link-check)
+> Configure [.markdown-link-check.json](https://github.com/tcort/markdown-link-check#config-file-format) in the project.
+* [markdown-spellcheck](https://github.com/lukeapage/node-markdown-spellcheck)
+> Configure [.spelling](https://github.com/lukeapage/node-markdown-spellcheck/blob/master/.spelling) in the root project.
+* [alex](https://github.com/get-alex/alex) catch insensitive, inconsiderate writing.
+> Configure in the root project.
+> * [.alexrc.yml](https://github.com/get-alex/alex#configuration)
+> * [.alexignore](https://github.com/get-alex/alex/blob/main/.alexignore)
