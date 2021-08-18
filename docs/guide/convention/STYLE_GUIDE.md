@@ -209,7 +209,7 @@ pip install cpplint
 ### Static Analysis
 #### `Linter`
 * [markdownlint](https://github.com/markdownlint/markdownlint)
-* [markdownlint](https://github.com/DavidAnson/markdownlint) a Node.js style checker and lint tool for Markdown/CommonMark files.
+* [markdownlint](https://github.com/DavidAnson/markdownlint) a Node.js style checker and lint tool.
 > Configure [.markdownlint.json](https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.jsonc) in the project.
 * [markdownlint-cli](https://github.com/DavidAnson/markdownlint) a Command Line Interface for MarkdownLint.
 > Configure [.markdownlint.json](https://github.com/DavidAnson/markdownlint/blob/main/.markdownlint.json) in the project.
