@@ -53,16 +53,16 @@
 > * [.clang-format-ignore](https://github.com/mozilla/gecko-dev/blob/master/.clang-format-ignore)<br/>
 > Use [clang-format-configurator](https://zed0.co.uk/clang-format-configurator/) to create a .clang-format file.
 #### `Checker`
-* See [scan-build](https://github.com/rizsotto/scan-build) tool for [clang-analyzer](http://clang-analyzer.llvm.org/scan-build.html).
+* [scan-build](https://github.com/rizsotto/scan-build) tool for [clang-analyzer](http://clang-analyzer.llvm.org/scan-build.html).
 * [Cppcheck](https://github.com/danmar/cppcheck)
 > Configure [cppcheck-suppressions.txt](https://github.com/open62541/open62541/blob/master/cppcheck-suppressions.txt) in the project.<br/>
 > See [manual](http://cppcheck.sourceforge.net/manual.pdf).
 
 ### Dynamic Analysis
-* See [Valgrind](https://valgrind.org/) tool.
+* [Valgrind](https://valgrind.org/)
 
 ### Unit-Testing Frameworks
-* See [TODO](https://www.jetbrains.com/lp/devecosystem-2021/cpp/#Which-unit-testing-frameworks-do-you-regularly-use).
+* [TODO](https://www.jetbrains.com/lp/devecosystem-2021/cpp/#Which-unit-testing-frameworks-do-you-regularly-use)
 
 ### Compiler
 See [Compiler User Guide](https://www.keil.com/support/man/docs/armclang_intro/default.htm) for the complete option list.
