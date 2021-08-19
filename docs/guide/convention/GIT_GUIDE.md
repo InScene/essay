@@ -128,7 +128,7 @@ Sometimes release should be done in a few days with the _current_ state, but we 
 - when we want release the stuff we create a PR from this **release** branch into **main**
 - then the flow as described above when merging develop into main
 
-#### Fix
+### Fix
 
 When develop branch already has new features and a _fix_ is needed in production then:
 
