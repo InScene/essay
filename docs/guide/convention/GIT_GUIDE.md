@@ -23,7 +23,7 @@ The central repo holds two main branches with an infinite lifetime:
 |   Instance  | Branch |   Description |
 |:-----------:|:------:|:-------------:|
 | Main      | main | The production branch, if the repository is published, this is the default branch being presented. |
-| Hot Fix     | hotfix/ | If there is a need to fix a blocker, do a temporary patch, apply a critical framework or configuration change that should be handled immediately, it should be created as a Hotfix. It does not follow the scheduled integration of code and could be merged directly to the production branch, then on the development branch later. |
+| Fix     | fix/ | If there is a need to fix a blocker, do a temporary patch, apply a critical framework or configuration change that should be handled immediately, it should be created as a fix. It does not follow the scheduled integration of code and could be merged directly to the production branch, then on the development branch later. |
 | Release     | release/ |  Branch for tagging a specific release version. Git also supports tagging a specific commit history of the repository. A release branch is used if there is a need to make the code available for checkout or use. |
 | Development | develop/   | All new features and bug fixes should be brought to the development branch. Resolving developer codes conflicts should be done as early as here. |
 | Feature     | feat/  | Any code changes for a new module or use case should be done on a feature branch. This branch is created based on the current development branch. When all changes are Done, a Pull Request/Merge Request is needed to put all of these to the development branch. |
@@ -129,17 +129,17 @@ Sometimes release should be done in a few days with the _current_ state, but we 
 - when we want release the stuff we create a PR from this **release** branch into **main**
 - then the flow as described above when merging develop into main
 
-#### Hotfix
+#### Fix
 
 When develop branch already has new features and a _fix_ is needed in production then:
 
-- create a hotfix branch from **main**
+- create a fix branch from **main**
 - commit fix with commit message like `fix: what was fixed`
 - create PR into main (after merging release process will be triggered)
 - create PR into develop (CI will run on PR and after merge deployed to staging)
-- delete hotfix branch
+- delete fix branch
 
-**NOTE:** merging a hotfix branch into develop and main should be done with _merge commit_.
+**NOTE:** merging a fix branch into develop and main should be done with _merge commit_.
 
 ## <a name="issue"></a> Found a Bug?
 
