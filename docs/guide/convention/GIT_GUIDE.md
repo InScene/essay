@@ -18,9 +18,9 @@ Inspired by [Couchcamote](https://dev.to/couchcamote/git-branching-name-conventi
 |   Instance  | Branch |   Description |
 |:-----------:|:------:|:-------------:|
 | Main      | main | The production branch, if the repository is published, this is the default branch being presented. |
-| Release     | release/ |  Branch for tagging a specific release version. Git also supports tagging a specific commit history of the repository. A release branch is used if there is a need to make the code available for checkout or use. |
 | Development | develop/   | All new features and bug fixes should be brought to the development branch. Resolving developer codes conflicts should be done as early as here. |
 | Feature     | feat/  | Any code changes for a new module or use case should be done on a feature branch. This branch is created based on the current development branch. When all changes are Done, a Pull Request/Merge Request is needed to put all of these to the development branch. |
+| Release     | release/ |  Branch for tagging a specific release version. Git also supports tagging a specific commit history of the repository. A release branch is used if there is a need to make the code available for checkout or use. |
 | Fix     | fix/ | If there is a need to fix a blocker, do a temporary patch, apply a critical framework or configuration change that should be handled immediately, it should be created as a fix. It does not follow the scheduled integration of code and could be merged directly to the production branch, then on the development branch later. |
 
 [Link](https://backlog.com/git-tutorial/branching-workflows/) to the image reference.
