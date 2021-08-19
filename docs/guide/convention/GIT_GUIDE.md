@@ -15,11 +15,6 @@
 ## <a name="branch"></a> Branching
 Inspired by [Couchcamote](https://dev.to/couchcamote/git-branching-name-convention-cch) and [vtenq](https://gist.github.com/vtenq/7a93687108cb876f884c3ce75a8a8023#file-git-workflow-md).
 
-The central repo holds two main branches with an infinite lifetime:
-
-- main
-- develop
-
 |   Instance  | Branch |   Description |
 |:-----------:|:------:|:-------------:|
 | Main      | main | The production branch, if the repository is published, this is the default branch being presented. |
@@ -28,9 +23,13 @@ The central repo holds two main branches with an infinite lifetime:
 | Development | develop/   | All new features and bug fixes should be brought to the development branch. Resolving developer codes conflicts should be done as early as here. |
 | Feature     | feat/  | Any code changes for a new module or use case should be done on a feature branch. This branch is created based on the current development branch. When all changes are Done, a Pull Request/Merge Request is needed to put all of these to the development branch. |
 
-
 [Link](https://backlog.com/git-tutorial/branching-workflows/) to the image reference.
 ![Branching](https://github.com/Sentenz/general/blob/main/image/branching_workflows.png)
+
+The central repo holds two main branches with an infinite lifetime:
+
+- main
+- develop
 
 We consider **origin/main** to be the main branch where the
 source code of HEAD always reflects a _production-ready_ state.
