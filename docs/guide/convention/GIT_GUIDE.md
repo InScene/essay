@@ -53,26 +53,26 @@ Before merging a PR into **develop** branch the CI should pass (merge button dis
 
 - May branch off from: **develop**
 - Must merge back into: **develop**
-- Branch naming convention: **feat/ISSUETYPE-ID-short_describe**
+- Branch naming convention: **feature/ISSUETYPE-ID-short_describe**
 
 #### Creating of a feature branch
 
 When starting work on a new feature, branch off from the develop branch.
 
 ```
-$ git checkout -b feat/ISSUE-ID-short_name develop
-Switched to a new branch "feat/ISSUE-ID-short_name"
+$ git checkout -b feature/ISSUE-ID-short_name develop
+Switched to a new branch "feature/ISSUE-ID-short_name"
 ```
 
 #### Merging a finished feature into develop
 
-To merge feature branch into **develop** you should push your local branch
+To merge **feature** branch into **develop** you should push your local branch
 to origin and then create a PR into **develop**. This is done to user power
 of CI and do all checks automatically before merging.
 
 ```
 # Push to origin
-git push -u origin feat/ISSUE-ID-short_name
+git push -u origin feature/ISSUE-ID-short_name
 ```
 
 When PR is created CI must run. In most cases it will have the following jobs _lint_ _test_ _build_.
