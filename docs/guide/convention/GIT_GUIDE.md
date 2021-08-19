@@ -13,7 +13,7 @@
      - [Semantic Release](#sr)
 
 ## <a name="branch"></a> Branching
-Inspired by [Couchcamote](https://dev.to/couchcamote/git-branching-name-convention-cch) and [](https://gist.github.com/vtenq/7a93687108cb876f884c3ce75a8a8023#file-git-workflow-md).
+Inspired by [Couchcamote](https://dev.to/couchcamote/git-branching-name-convention-cch) and [vtenq](https://gist.github.com/vtenq/7a93687108cb876f884c3ce75a8a8023#file-git-workflow-md).
 
 The central repo holds two main branches with an infinite lifetime:
 
