@@ -119,11 +119,11 @@ In most cases release will be done in the following way:
 - create PR from **develop** into **main**
 - merge it with merge commit (TBD: commit message) (NO squash and rebase)
 - ci should pass
-- new release created and deloyed to production (TBD: auto vs manual deploy)
+- new release created and deloyed to production (TBD: auto (semantic-release) vs manual deploy)
 
 Sometimes release should be done in a few days with the _current_ state, but we do not want to block other developers from merging new features into **develop** branch. In this case we can borrow idea of a release branch from git flow.
 
-- create new branch from **develop** (TBD: naming convention, i.e. release-v1.2.x)
+- create new branch from **develop** (TBD: naming convention, i.e. release/1.2.x)
 - now we can continue merging into develop branch
 - when we want release the stuff we create a PR from this **release** branch into **main**
 - then the flow as described above when merging develop into main
