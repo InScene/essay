@@ -126,7 +126,7 @@ Sometimes release should be done in a few days with the _current_ state, but we 
 - create new branch from **develop** (TBD: naming convention, i.e. release/1.2.x)
 - now we can continue merging into develop branch
 - when we want release the stuff we create a PR from this **release** branch into **main**
-- then the flow as described above when merging develop into main
+- then the flow as described above when merging **develop** into **main**
 
 ### Fix
 
