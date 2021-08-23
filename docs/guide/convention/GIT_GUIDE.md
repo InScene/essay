@@ -88,7 +88,7 @@ Tracking how feature was developed is good thing, but only in the
 ideal world where it includes just a few commits and every one is meaningful.
 
 Feature branches are frequently considered as "fat" branches that contain a lot
-of commit sthat make history unclean and unconcise, for example:
+of commit that make history unclean and unconcise, for example:
 
 - feat: add new feture
 - fix: something I forgot to do
