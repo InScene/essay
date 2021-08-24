@@ -139,7 +139,7 @@ When develop branch already has new features and a _fix_ is needed in production
 - create PR into develop (CI will run on PR and after merge deployed to staging)
 - delete fix branch
 
-**NOTE:** merging a fix branch into develop and main should be done with _merge commit_. If branches were merged and deleted in Github, the correct way to remove all remote branches in the IDE is to run the following command.
+**NOTE:** Merging a fix branch into develop and main should be done with _merge commit_. If branches were merged and deleted in Github, the correct way to remove all remote branches in the IDE is to run the following command.
 
 ```bash
 # Push to origin
