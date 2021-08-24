@@ -338,13 +338,13 @@ Any line of the commit message cannot be longer than 100 characters.
 ```txt
 <type>(<scope>): <short summary>
   │       │             │
-  │       │             └─> Summary in present tense. Not capitalized. No period at the end.
+  │       │             └─⫸ Summary in present tense. Not capitalized. No period at the end.
   │       │
-  │       └─> Commit Scope: app|config|generated|interface|utility|tools|guide|external|
+  │       └─⫸ Commit Scope: app|config|generated|interface|utility|tools|guide|external|
   │                          education|elements|forms|platform|upgrade|packaging|changelog|
   │                          migrations
   │
-  └─> Commit Type: build|ci|docs|feat|fix|perf|refactor|test
+  └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|test
 ```
 
 The `<type>` and `<summary>` fields are mandatory, the `(<scope>)` field is optional.
