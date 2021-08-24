@@ -142,7 +142,7 @@ When develop branch already has new features and a _fix_ is needed in production
 **NOTE:** Merging a fix branch into develop and main should be done with _merge commit_. If branches were merged and deleted in Github, the correct way to remove all remote branches in the IDE is to run the following command.
 
 ```bash
-# Push to origin
+# Cleanup unreachable or "orphaned" Git objects
 git fetch --prune
 ```
 
