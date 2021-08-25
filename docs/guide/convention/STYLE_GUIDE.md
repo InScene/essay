@@ -192,7 +192,7 @@ pip install cpplint
 
 ### Static Analysis
 
-* [Awesome Go Linters](https://github.com/golangci/awesome-go-linters) to find linter and formater
+* [Awesome Go Linters](https://github.com/golangci/awesome-go-linters)
 
 #### `Linter`
 
