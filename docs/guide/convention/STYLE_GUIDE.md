@@ -1,6 +1,7 @@
 # Style Guides
 
-* [Super Linter](https://github.com/github/super-linter)
+* [Super-Linter](https://github.com/github/super-linter)
+* [Mega-Linter](https://nvuillam.github.io/mega-linter/)
 
 ## Table of Contents
 
