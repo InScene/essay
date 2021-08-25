@@ -146,6 +146,11 @@ pip install cpplint
 ### Static Analysis
 #### `Linter`
 * [Awesome Go Linters](https://github.com/golangci/awesome-go-linters) to find linter and formater
+* [golangci-lint](https://github.com/golangci/golangci-lint)
+> Configure [.golangci.yml](https://github.com/golangci/golangci-lint/blob/master/.golangci.yml) in the project.
+#### `Checker`
+* [staticcheck](https://github.com/dominikh/go-tools)
+> Configure [staticcheck.conf](https://staticcheck.io/docs/configuration#example-configuration) in the project.
 #### `Format`
 * [gofmt](https://golang.org/cmd/gofmt/)
 * [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports)
