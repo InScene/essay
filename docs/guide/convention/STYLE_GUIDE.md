@@ -3,6 +3,8 @@
 * [Super-Linter](https://github.com/github/super-linter)
 * [Mega-Linter](https://nvuillam.github.io/mega-linter/)
 
+> json-schemas [configuration](https://nvuillam.github.io/mega-linter/json-schemas/configuration.html#GO_GOLANGCI_LINT_CONFIG_FILE)
+
 ## Table of Contents
 
 * [C](#cc)
