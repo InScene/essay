@@ -25,6 +25,7 @@ Inspired by [Couchcamote](https://dev.to/couchcamote/git-branching-name-conventi
 | fix | If there is a need to fix a blocker, do a temporary patch, apply a critical framework or configuration change that should be handled immediately, it should be created as a fix. It does not follow the scheduled integration of code and could be merged directly to the production branch, then on the development branch later. |
 
 [Link](https://backlog.com/git-tutorial/branching-workflows/) to the image reference.
+
 ![Branching](https://github.com/Sentenz/general/blob/main/image/branching_workflows.png)
 
 The central repo holds two main branches with an infinite lifetime:
