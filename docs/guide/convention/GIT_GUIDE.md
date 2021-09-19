@@ -26,7 +26,7 @@ Inspired by [Couchcamote](https://dev.to/couchcamote/git-branching-name-conventi
 
 [Link](https://backlog.com/git-tutorial/branching-workflows/) to the image reference.
 
-![Branching](https://github.com/Sentenz/general/blob/main/image/branching_workflows.png)
+![Branching](https://github.com/Sentenz/general/blob/main/resources/images/branching_workflows.png)
 
 The central repo holds two main branches with an infinite lifetime:
 
