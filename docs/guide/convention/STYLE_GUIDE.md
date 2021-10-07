@@ -321,11 +321,11 @@ pip install cpplint
   - TODO
 - Solution Architect
   - [Fundamental Modeling Concepts (FMC)](http://www.fmc-modeling.org/home) for system-related structures
-  - [TAM - The SAP way combining FMC and UML](http://www.fmc-modeling.org/fmc-and-tam)
     > Supported software tools.
     >
     > - [Eclipse FMC](https://www.eclipse.org/fmc/)
     >
+  - [TAM - The SAP way combining FMC and UML](http://www.fmc-modeling.org/fmc-and-tam)
 - Technical Architect
   - UML for software-related structures
     > Supported software tools.
