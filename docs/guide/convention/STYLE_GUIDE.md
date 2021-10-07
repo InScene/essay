@@ -17,6 +17,7 @@
 - [Rust](#rs)
 - [Git](#git)
 - [Markdown](#md)
+- [Architect Modeling Concepts](#es)
 
 ## <a name="cc"></a> C
 
@@ -311,3 +312,14 @@ pip install cpplint
     >
     > - [.alexrc.yml](https://github.com/get-alex/alex#configuration)
     > - [.alexignore](https://github.com/get-alex/alex/blob/main/.alexignore)
+
+## <a name="ea"></a> Architect Modeling Concepts
+
+### Conventions
+
+- Enterprise Architect
+  - TODO
+- Solution Architect
+  - [Fundamental Modeling Concepts (FMC)](http://www.fmc-modeling.org/home)
+- Technical Architect
+  - TODO
