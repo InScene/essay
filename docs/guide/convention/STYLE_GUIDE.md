@@ -268,7 +268,7 @@ pip install cpplint
 
 - [commitlint](https://github.com/conventional-changelog/commitlint)
     > Configure [.commitlintrc.js](https://github.com/conventional-changelog/commitlint#config) in the project.
-
+    >
 - [commitlint-github-action](https://github.com/wagoid/commitlint-github-action)
 
 ### CI/CD
@@ -293,20 +293,20 @@ pip install cpplint
 - [markdownlint](https://github.com/markdownlint/markdownlint)
 - [markdownlint](https://github.com/DavidAnson/markdownlint) a Node.js style checker and lint tool.
     > Configure [.markdownlint.json](https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.jsonc) in the project.
-
+    >
 - [markdownlint-cli](https://github.com/DavidAnson/markdownlint) a Command Line Interface for MarkdownLint.
     > Configure [.markdownlint.json](https://github.com/DavidAnson/markdownlint/blob/main/.markdownlint.json) in the project.
-
+    >
 - [markdownlint](https://github.com/actionshub/markdownlint) a Github Action tool.
 
 #### `Checker`
 
 - [markdown-link-check](https://github.com/tcort/markdown-link-check)
     > Configure [.markdown-link-check.json](https://github.com/tcort/markdown-link-check#config-file-format) in the project.
-
+    >
 - [markdown-spellcheck](https://github.com/lukeapage/node-markdown-spellcheck)
     > Configure [.spelling](https://github.com/lukeapage/node-markdown-spellcheck/blob/master/.spelling) in the root project.
-
+    >
 - [alex](https://github.com/get-alex/alex) catch insensitive, inconsiderate writing.
     > Configure in the root project.
     >
@@ -320,6 +320,15 @@ pip install cpplint
 - Enterprise Architect
   - TODO
 - Solution Architect
-  - [Fundamental Modeling Concepts (FMC)](http://www.fmc-modeling.org/home)
+  - [Fundamental Modeling Concepts (FMC)](http://www.fmc-modeling.org/home) for system-related structures
+  - [TAM - The SAP way combining FMC and UML](http://www.fmc-modeling.org/fmc-and-tam)
+    > Supported software tools.
+    >
+    > - [Eclipse FMC](https://www.eclipse.org/fmc/)
+    >
 - Technical Architect
-  - TODO
+  - UML for software-related structures
+    > Supported software tools.
+    >
+    > - [VS Code UMLet](https://marketplace.visualstudio.com/items?itemName=TheUMLetTeam.umlet)
+    > - [VS Code PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
