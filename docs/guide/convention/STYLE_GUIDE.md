@@ -327,7 +327,7 @@ pip install cpplint
     >
   - [TAM - The SAP way combining FMC and UML](http://www.fmc-modeling.org/fmc-and-tam)
 - Technical Architect
-  - UML for software-related structures
+  - [Unified Modeling Language (UML)](https://www.uml.org/) for software-related structures
     > Supported software tools.
     >
     > - [VS Code UMLet](https://marketplace.visualstudio.com/items?itemName=TheUMLetTeam.umlet)
