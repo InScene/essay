@@ -344,4 +344,5 @@ pip install cpplint
 - [cmake_format](https://github.com/cheshirekow/cmake_format)
   > - Configure [cmake-format](https://cmake-format.readthedocs.io/en/latest/configuration.html) configuration files.
   > - Add cmake-format to your [pre-commit](https://cmake-format.readthedocs.io/en/latest/installation.html#pre-commit) configuration.
+  > - Official [VS Code](https://marketplace.visualstudio.com/items?itemName=cheshirekow.cmake-format) extension.
 - [cmake-lint](https://github.com/cmake-lint/cmake-lint)
