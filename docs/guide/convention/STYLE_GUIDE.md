@@ -2,7 +2,7 @@
 
 - [Super-Linter](https://github.com/github/super-linter)
 - [Mega-Linter](https://nvuillam.github.io/mega-linter/)
-    > json-schemas [configuration](https://nvuillam.github.io/mega-linter/json-schemas/configuration.html#GO_GOLANGCI_LINT_CONFIG_FILE)
+  > json-schemas [configuration](https://nvuillam.github.io/mega-linter/json-schemas/configuration.html#GO_GOLANGCI_LINT_CONFIG_FILE)
 
 ## Table of Contents
 
@@ -18,20 +18,21 @@
 - [Git](#git)
 - [Markdown](#md)
 - [Architect Modeling Concepts](#ea)
+- [CMake](#cmake)
 
 ## <a name="cc"></a> C
 
 ### Conventions
 
-- Follow [C++](#cpp) conventions.
+- Follow [C++](#cpp)
 
 ### Archtitecture
 
-- Follow [C++](#cpp) conventions.
+- Follow [C++](#cpp)
 
 ### Analysis Tools
 
-- Follow [C++](#cpp) conventions.
+- Follow [C++](#cpp)
 
 ### Unit-Testing Frameworks
 
@@ -39,13 +40,13 @@
 
 ### Compiler
 
-- Follow [C++](#cpp) conventions.
+- Follow [C++](#cpp)
 
 ## <a name="cpp"></a> C++
 
 ### Conventions
 
-- We follow [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html).
+- Follow [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 
 ### Archtitecture
 
@@ -56,27 +57,28 @@
 #### `Linter`
 
 - [clang-tidy](https://clang.llvm.org/extra/clang-tidy/) tool and [doc](https://clang.llvm.org/extra/clang-tidy/#id2)
-    > Configure [.clang-tidy](https://github.com/googleapis/google-cloud-cpp/blob/main/.clang-tidy) in the project.
+
+  > Configure [.clang-tidy](https://github.com/googleapis/google-cloud-cpp/blob/main/.clang-tidy) in the project.
 
 - See [Cpplint](https://pypi.org/project/cpplint/) tool to detect style errors, see [code](https://raw.githubusercontent.com/google/styleguide/gh-pages/cpplint/cpplint.py) of the cpplint.py tool.
-    > Configure [CPPLINT.cfg](https://github.com/google/conscrypt/blob/master/CPPLINT.cfg) in the root project.<br/>
-    > cpplint.py is a tool that reads a source file and identifies many style errors. It is not perfect, and has both false positives and false negatives, but it is still a valuable tool. False positives can be ignored by putting `// NOLINT` at the end of the line or `// NOLINTNEXTLINE` in the previous line.
+  > Configure [CPPLINT.cfg](https://github.com/google/conscrypt/blob/master/CPPLINT.cfg) in the root project.<br/>
+  > cpplint.py is a tool that reads a source file and identifies many style errors. It is not perfect, and has both false positives and false negatives, but it is still a valuable tool. False positives can be ignored by putting `// NOLINT` at the end of the line or `// NOLINTNEXTLINE` in the previous line.
 
 #### `Format`
 
 - [clang-format](https://clang.llvm.org/docs/ClangFormat.html)
-    > Configure in the root project.
-    >
-    > - [.clang-format](https://github.com/googleapis/google-cloud-cpp/blob/main/.clang-format)
-    > - [.clang-format-ignore](https://github.com/mozilla/gecko-dev/blob/master/.clang-format-ignore)<br/>
-    > Use [clang-format-configurator](https://zed0.co.uk/clang-format-configurator/) to create a .clang-format file.
+  > Configure in the root project.
+  >
+  > - [.clang-format](https://github.com/googleapis/google-cloud-cpp/blob/main/.clang-format)
+  > - [.clang-format-ignore](https://github.com/mozilla/gecko-dev/blob/master/.clang-format-ignore)<br/>
+  >   Use [clang-format-configurator](https://zed0.co.uk/clang-format-configurator/) to create a .clang-format file.
 
 #### `Checker`
 
 - [scan-build](https://github.com/rizsotto/scan-build) tool for [clang-analyzer](http://clang-analyzer.llvm.org/scan-build.html).
 - [Cppcheck](https://github.com/danmar/cppcheck)
-    > Configure [cppcheck-suppressions.txt](https://github.com/open62541/open62541/blob/master/cppcheck-suppressions.txt) in the project.<br/>
-    > See [manual](http://cppcheck.sourceforge.net/manual.pdf).
+  > Configure [cppcheck-suppressions.txt](https://github.com/open62541/open62541/blob/master/cppcheck-suppressions.txt) in the project.<br/>
+  > See [manual](http://cppcheck.sourceforge.net/manual.pdf).
 
 ### Dynamic Analysis
 
@@ -109,7 +111,7 @@ Some projects have instructions on how to run cpplint.py from their project tool
 If the project you are contributing to does not, you can download cpplint.py separately.
 
 - Under the Eclipse IDE use [CppStyle](https://github.com/wangzw/CppStyle). An Eclipse plugin that integrates the clang-format tool as an alternative C/C++ code formatter and checks C++ coding style
-    > To configure Cpplint  checker for C go to **Code Analysis** in **Perference -> C/C++ -> Code Analysis -> Cpplint Issues** globally, or in **Project property -> C/C++ General -> Code Analysis -> Cpplint Issues** for a C/C++ project. Double click **Build -> deprecated** page **Scope** and add **\*.c** in **Inclusion patterns** property.
+  > To configure Cpplint checker for C go to **Code Analysis** in **Perference -> C/C++ -> Code Analysis -> Cpplint Issues** globally, or in **Project property -> C/C++ General -> Code Analysis -> Cpplint Issues** for a C/C++ project. Double click **Build -> deprecated** page **Scope** and add **\*.c** in **Inclusion patterns** property.
 
 #### `Lint under Windows`
 
@@ -131,25 +133,25 @@ pip install cpplint
 
 ### Conventions
 
-- We follow [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html).
+- Follow [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 
 ## <a name="cs"></a> C Sharp
 
 ### Conventions
 
-- We follow [Google C# Style Guide](https://google.github.io/styleguide/csharp-style.html).
+- Follow [Google C# Style Guide](https://google.github.io/styleguide/csharp-style.html)
 
 ## <a name="py"></a> Python
 
 ### Conventions
 
-- We follow [Google Python Guide](https://google.github.io/styleguide/pyguide.html).
+- Follow [Google Python Guide](https://google.github.io/styleguide/pyguide.html)
 
 ## <a name="sh"></a> Shell
 
 ### Conventions
 
-- We follow [Google Shell Style Guide](https://google.github.io/styleguide/shellguide.html).
+- Follow [Google Shell Style Guide](https://google.github.io/styleguide/shellguide.html)
 
 ### Static Analysis
 
@@ -160,13 +162,13 @@ pip install cpplint
 #### `Checker`
 
 - [shellcheck](https://github.com/koalaman/shellcheck) to get warnings and suggestions for bash/sh bash scripts.
-    > Configure [.shellcheckrc](https://github.com/koalaman/shellcheck/issues/725) in the project.
+  > Configure [.shellcheckrc](https://github.com/koalaman/shellcheck/issues/725) in the project.
 
 ## <a name="kt"></a> Kotlin
 
 ### Conventions
 
-- We follow [Androids Kotlin Style Guide](https://developer.android.com/kotlin/style-guide).
+- Follow [Androids Kotlin Style Guide](https://developer.android.com/kotlin/style-guide)
 
 ### Static Analysis
 
@@ -182,9 +184,9 @@ pip install cpplint
 
 ### Conventions
 
-- We follow [Effective Go](https://golang.org/doc/effective_go).
-- We follow [Golang Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments).
-- We follow [Uber Go Style Guide](https://github.com/uber-go/guide/blob/master/style.md).
+- Follow [Effective Go](https://golang.org/doc/effective_go)
+- Follow [Golang Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
+- Follow [Uber Go Style Guide](https://github.com/uber-go/guide/blob/master/style.md)
 
 ### Static Analysis
 
@@ -193,12 +195,12 @@ pip install cpplint
 #### `Linter`
 
 - [golangci-lint](https://github.com/golangci/golangci-lint)
-    > Configure [.golangci.yml](https://github.com/golangci/golangci-lint/blob/master/.golangci.yml) in the project.
+  > Configure [.golangci.yml](https://github.com/golangci/golangci-lint/blob/master/.golangci.yml) in the project.
 
 #### `Checker`
 
 - [staticcheck](https://github.com/dominikh/go-tools)
-    > Configure [staticcheck.conf](https://staticcheck.io/docs/configuration#example-configuration) in the project.
+  > Configure [staticcheck.conf](https://staticcheck.io/docs/configuration#example-configuration) in the project.
 
 #### `Format`
 
@@ -240,7 +242,7 @@ pip install cpplint
 
 ### Conventions
 
-- We follow [TODO](https://example.com/).
+- Follow [TODO](https://example.com/)
 
 ### Static Analysis
 
@@ -260,31 +262,30 @@ pip install cpplint
 
 ### Conventions
 
-- We follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
+- Follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 ### Static Analysis
 
 #### `Linter`
 
 - [commitlint](https://github.com/conventional-changelog/commitlint)
-    > Configure [.commitlintrc.js](https://github.com/conventional-changelog/commitlint#config) in the project.
-    >
+  > Configure [.commitlintrc.js](https://github.com/conventional-changelog/commitlint#config) in the project.
 - [commitlint-github-action](https://github.com/wagoid/commitlint-github-action)
 
 ### CI/CD
 
 - [semantic-release](https://github.com/semantic-release/semantic-release) tool for an full automated release and changlog. Get more information in [GIT_GUIDE](https://github.com/sentenz/general/blob/main/docs/guide/convention/GIT_GUIDE.md#-semantic-release).
-    > Configure in the project.
-    >
-    > - [.releaserc.json](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration-file)
-    > - [package.json](https://github.com/semantic-release/semantic-release/blob/master/package.json)
-    > - [package-lock.json](https://github.com/semantic-release/semantic-release/blob/master/package-lock.json)
+  > Configure in the project.
+  >
+  > - [.releaserc.json](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration-file)
+  > - [package.json](https://github.com/semantic-release/semantic-release/blob/master/package.json)
+  > - [package-lock.json](https://github.com/semantic-release/semantic-release/blob/master/package-lock.json)
 
 ## <a name="md"></a> Markdown
 
 ### Conventions
 
-- We follow [Markdown Rules](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md).
+- Follow [Markdown Rules](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md)
 
 ### Static Analysis
 
@@ -292,26 +293,22 @@ pip install cpplint
 
 - [markdownlint](https://github.com/markdownlint/markdownlint)
 - [markdownlint](https://github.com/DavidAnson/markdownlint) a Node.js style checker and lint tool.
-    > Configure [.markdownlint.json](https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.jsonc) in the project.
-    >
+  > Configure [.markdownlint.json](https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.jsonc) in the project.
 - [markdownlint-cli](https://github.com/DavidAnson/markdownlint) a Command Line Interface for MarkdownLint.
-    > Configure [.markdownlint.json](https://github.com/DavidAnson/markdownlint/blob/main/.markdownlint.json) in the project.
-    >
+  > Configure [.markdownlint.json](https://github.com/DavidAnson/markdownlint/blob/main/.markdownlint.json) in the project.
 - [markdownlint](https://github.com/actionshub/markdownlint) a Github Action tool.
 
 #### `Checker`
 
 - [markdown-link-check](https://github.com/tcort/markdown-link-check)
-    > Configure [.markdown-link-check.json](https://github.com/tcort/markdown-link-check#config-file-format) in the project.
-    >
+  > Configure [.markdown-link-check.json](https://github.com/tcort/markdown-link-check#config-file-format) in the project.
 - [markdown-spellcheck](https://github.com/lukeapage/node-markdown-spellcheck)
-    > Configure [.spelling](https://github.com/lukeapage/node-markdown-spellcheck/blob/master/.spelling) in the root project.
-    >
+  > Configure [.spelling](https://github.com/lukeapage/node-markdown-spellcheck/blob/master/.spelling) in the root project.
 - [alex](https://github.com/get-alex/alex) catch insensitive, inconsiderate writing.
-    > Configure in the root project.
-    >
-    > - [.alexrc.yml](https://github.com/get-alex/alex#configuration)
-    > - [.alexignore](https://github.com/get-alex/alex/blob/main/.alexignore)
+  > Configure in the root project.
+  >
+  > - [.alexrc.yml](https://github.com/get-alex/alex#configuration)
+  > - [.alexignore](https://github.com/get-alex/alex/blob/main/.alexignore)
 
 ## <a name="ea"></a> Architect Modeling Concepts
 
@@ -324,7 +321,6 @@ pip install cpplint
     > Supported software tools.
     >
     > - [Eclipse FMC](https://www.eclipse.org/fmc/)
-    >
   - [TAM - The SAP way combining FMC and UML](http://www.fmc-modeling.org/fmc-and-tam)
 - Technical Architect
   - [Unified Modeling Language (UML)](https://www.uml.org/) for software-related structures
@@ -332,3 +328,20 @@ pip install cpplint
     >
     > - [VS Code UMLet](https://marketplace.visualstudio.com/items?itemName=TheUMLetTeam.umlet)
     > - [VS Code PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
+
+## <a name="cmake"></a> CMake
+
+### Conventions
+
+- Follow [KDE CMake Coding Style](https://community.kde.org/Policies/CMake_Coding_Style)
+- Follow [ROS](http://docs.ros.org/en/jade/api/catkin/html/user_guide/standards.html)
+- Follow [CMake Developer](https://cmake.org/cmake/help/latest/manual/cmake-developer.7.html#modules)
+
+### Static Analysis
+
+#### `Linter`
+
+- [cmake_format](https://github.com/cheshirekow/cmake_format)
+  > Configure [cmake-format](https://cmake-format.readthedocs.io/en/latest/configuration.html) configuration files.
+  > Add cmake-format to your [pre-commit](https://cmake-format.readthedocs.io/en/latest/installation.html#pre-commit) configuration.
+- [cmake-lint](https://github.com/cmake-lint/cmake-lint)
