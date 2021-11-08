@@ -152,6 +152,7 @@ pip install cpplint
 ### Conventions
 
 - Follow [Google Shell Style Guide](https://google.github.io/styleguide/shellguide.html)
+- Follow [Gitlab Shell Scripting Recommendation](https://docs.gitlab.com/ee/development/shell_scripting_guide/)
 
 ### Static Analysis
 
