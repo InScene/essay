@@ -270,7 +270,9 @@ pip install cpplint
 #### `Linter`
 
 - [commitlint](https://github.com/conventional-changelog/commitlint)
-  > Configure [.commitlintrc.js](https://github.com/conventional-changelog/commitlint#config) in the project.
+  > - Configure [.commitlintrc.js](https://github.com/conventional-changelog/commitlint#config) in the project.
+  > - Configure [git-husky-commitlint](https://remarkablemark.org/blog/2019/05/29/git-husky-commitlint/#test) in commit-msg.
+  > Configure [pre-commit] to perform a test before a transfer is made.
 - [commitlint-github-action](https://github.com/wagoid/commitlint-github-action)
 
 ### CI/CD
