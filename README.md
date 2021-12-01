@@ -59,6 +59,20 @@ The submodule repository is defined as a reference, so no files from this extern
    git rm docs/guides
    ```
 
+5. Fetch new a submodule commits
+
+   ```bash
+   cd <submodule>
+   git fetch
+   ```
+
+   Example:
+
+   ```bash
+   cd docs/guides
+   git fetch
+   ```
+
 ### Git Subtree
 
 With git subtree it is possible to nest one repository within another as a subdirectory. All files of the external repository will be added to the own repository as a copy with a own commit. The files are retained even if the external repository is deleted.
