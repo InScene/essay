@@ -30,7 +30,7 @@ The submodule repository is defined as a reference, so no files from this extern
    Example:
 
    ```bash
-   git submodule add -b docs/guides https://github.com/sentenz/essay.git docs/guides 
+   git submodule add -b docs/guides https://github.com/sentenz/essay.git docs/guides
    ```
 
 2. Pull a Git Submodule
@@ -43,6 +43,20 @@ The submodule repository is defined as a reference, so no files from this extern
 
    ```bash
    git submodule update --remote --recursive --merge
+   ```
+
+4. Remove a Git Submodule
+
+   ```bash
+   git submodule deinit <submodule>
+   git rm <submodule>
+   ```
+
+   Example:
+
+   ```bash
+   git submodule deinit docs/guides
+   git rm docs/guides
    ```
 
 ### Git Subtree
