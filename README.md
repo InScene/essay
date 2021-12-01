@@ -27,10 +27,10 @@ The submodule repository is defined as a reference, so no files from this extern
    git submodule add -b <branch> <remote-respoitory-url> <relativ-local-folder-path>
    ```
 
-    Example:
+   Example:
 
    ```bash
-    git submodule add -b docs/guides https://github.com/sentenz/essay.git docs/guides 
+   git submodule add -b docs/guides https://github.com/sentenz/essay.git docs/guides 
    ```
 
 2. Pull a Git Submodule
@@ -58,7 +58,7 @@ With git subtree it is possible to nest one repository within another as a subdi
    Example:
 
    ```bash
-   git subtree add --prefix docs/guides r-pcd-general workflows --squash
+   git subtree add --prefix github/google/styleguide https://github.com/google/styleguide.git gh-pages --squash
    ```
 
 2. Update a Git Subtree
@@ -66,11 +66,11 @@ With git subtree it is possible to nest one repository within another as a subdi
    ```bash
    git fetch <short-name> <remote-branch>
    git subtree pull --prefix <relativ-local-folder-path> <short-name> <remote-branch> --squash
-   ```
+      ```
 
    Example:
 
    ```bash
    git fetch r-pcd-general workflows
-   git subtree pull --prefix docs/workflows r-pcd-general workflows --squash
+   git subtree pull --prefix github/google/styleguide https://github.com/google/styleguide.git gh-pages --squash
    ```
