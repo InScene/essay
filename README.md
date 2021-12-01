@@ -92,13 +92,11 @@ With git subtree it is possible to nest one repository within another as a subdi
 2. Update a Git Subtree
 
    ```bash
-   git fetch <short-name> <remote-branch>
    git subtree pull --prefix <relativ-local-folder-path> <short-name> <remote-branch> --squash
       ```
 
    Example:
 
    ```bash
-   git fetch r-pcd-general workflows
    git subtree pull --prefix github/google/styleguide https://github.com/google/styleguide.git gh-pages --squash
    ```
