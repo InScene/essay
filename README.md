@@ -129,7 +129,7 @@ Run the commands below from the top-level directory of your project.
 
    ```bash
    git submodule deinit docs/guides
-   git rm docs/guides
+   git rm --cached docs/guides
    ```
 
 <!-- omit in toc -->
@@ -190,7 +190,7 @@ Run the commands below from the top-level directory of your project.
 
    ```bash
    git submodule deinit scripts/validate
-   git rm scripts/validate
+   git rm --cached scripts/validate
    ```
 
 <!-- omit in toc -->
