@@ -158,14 +158,21 @@ Run the commands below from the top-level directory of your project.
 1. Add a Git Submodule
 
    ```bash
+   clone --sparse --filter=blob:none --no-checkout --depth 1 -b <branch> <remote-respoitory-url> <relativ-local-folder-path>
+   git submodule add -b <branch> <remote-respoitory-url> <relativ-local-folder-path>
+   ```
+   
+   Example:
+
+   ```bash
    git clone --sparse --filter=blob:none --no-checkout --depth 1 -b scripts/validate https://github.com/sentenz/essay.git scripts/validate
    git submodule add -b scripts/validate https://github.com/sentenz/essay.git scripts/validate
-   git submodule absorbgitdirs
    ```
    
    Modify `.git/modules/scripts/validate/info/sparse-checkout`.
    
    ```bash
+   git submodule absorbgitdirs
    git -C scripts/validate config core.sparseCheckout true
    echo 'validate/*' >> .git/modules/scripts/validate/info/sparse-checkout
    git submodule update --force --checkout scripts/validate
